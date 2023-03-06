@@ -15,7 +15,7 @@ Duvan Peñaranda
 |**celular**|3017791476|
 |**correo**|penarandaduvan4@gmail.com|
 |**usuario de GITHUB**|Duvan-penaranda|
-
+|**Direccion**|CALLE 51B #3D-119|
 
 ## Estudios
 
