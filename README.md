@@ -14,6 +14,8 @@ Duvan Peñaranda
 |**Cedula**|1043129968|
 |**celular**|3017791476|
 |**correo**|penarandaduvan4@gmail.com|
+|**usuario de GITHUB**|Duvan-penaranda|
+
 
 ## Estudios
 
