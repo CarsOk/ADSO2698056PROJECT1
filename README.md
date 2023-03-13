@@ -1,3 +1,6 @@
+# Hoja de vida aprendices
+- [Geronimo Castillo](hojas_de_vida/geronimo_castillo.md)
+
 # ADSO2698056PROJECT1
 Proyecto formativo
 # ADSO2698056PROJECT1
