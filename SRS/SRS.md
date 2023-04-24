@@ -84,8 +84,10 @@ todo reflejado en el sistema.
 |entradas| fuente | salida | destino | restricciones|
 |        |        |        |         |              |
 |proceso |                                          |
-|efecto colateral|                                  |
+|efecto colateral|                                  | 
+
 3.2 resquerimirntos no funcionales 
+
 |codigo      | nombre         | fecha   |grado necesida |
 |------------|----------------|---------|---------------|
 |            |                |         |               |
