@@ -17,3 +17,5 @@ Sofia: Sistema Optimizado para la formación Integral del Aprendizaje Activo
 Para la realización de nuestro proyecto, solo hemos utilizado las especificaciones, e información facilitada por el empresario, y la información recolectada de los análisis planteados por nuestro equipo de trabajo.
 
 ## 1.5	Apreciación global
+EN la primera parte de este documento, se ha presentado una corta intrudccion.
+En el siguiente capitulo observara la perspectiva del proyecto con sus funciones, especificaciones y caracteristicas del proyecto mismo y de su futuros usuarios.
