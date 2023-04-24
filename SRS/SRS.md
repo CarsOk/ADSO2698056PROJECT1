@@ -24,13 +24,27 @@ En el siguiente capitulo observara la perspectiva del proyecto con sus funciones
 
 ## 2.1	Perspectivas del Producto
 
+- El Sistema de Gestión del Almacén (SGA) es el software que automatiza los procesos y
+permite integrar y administrar con eficacia todas las tareas operativas y logísticas de un
+espacio de almacenaje, gestionando todos los movimientos, los materiales y la maquinaria
+de trabajo de un almacén en cada una de las etapas logísticas llevadas a cabo, desde la
+recepción de mercancías hasta el almacenamiento y la preparación de la empresa.
 
 
 ## 2.2	Funciones del Producto
 
+- Describe la funcionalidad del producto, proporciona un resumen de las funciones mayores
+que el software realizando, la cual se verá a detalle posteriormente. Las funciones deben
+organizarse de modo que la lista de funciones sea comprensible para el cliente o cualquiera
+que lea el documento por primera vez o pueden usar los métodos textuales o gráficos para
+mostrar las funciones diferentes y sus relaciones.
 
 ## 2.3	Características de Usuario
 
+- Un SGA es un sistema automatizado y digitalizado con toda la información del almacén.
+Cada tarea y proceso que se lleva a cabo en dicho almacén será gestionado por el
+software. Tanto los procesos de entrada como de salida, todo está diseñado para que quede
+todo reflejado en el sistema.
 
 ## 2.4	Restricciones
 
@@ -71,3 +85,40 @@ En el siguiente capitulo observara la perspectiva del proyecto con sus funciones
 |        |        |        |         |              |
 |proceso |                                          |
 |efecto colateral|                                  |
+3.2 resquerimirntos no funcionales 
+|codigo      | nombre         | fecha   |grado necesida |
+|------------|----------------|---------|---------------|
+|            |                |         |               |
+|descripcion |                                          |
+
+
+|codigo      | nombre         | fecha   |grado necesida |
+|------------|----------------|---------|---------------|
+|            |                |         |               |
+|descripcion |                                          |
+
+
+|codigo      | nombre         | fecha   |grado necesida |
+|------------|----------------|---------|---------------|
+|            |                |         |               |
+|descripcion |                                          |
+
+
+
+3.3 requerimientos de interfaz de usuario 
+|codigo      | nombre         | fecha   |grado necesida |
+|------------|----------------|---------|---------------|
+|            |                |         |               |
+|descripcion |                                          |
+
+
+|codigo      | nombre         | fecha   |grado necesida |
+|------------|----------------|---------|---------------|
+|            |                |         |               |
+|descripcion |                                          |
+
+
+|codigo      | nombre         | fecha   |grado necesida |
+|------------|----------------|---------|---------------|
+|            |                |         |               |
+|descripcion |                                          |
