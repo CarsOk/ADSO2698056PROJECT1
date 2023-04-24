@@ -19,3 +19,55 @@ Para la realización de nuestro proyecto, solo hemos utilizado las especificacio
 ## 1.5	Apreciación global
 EN la primera parte de este documento, se ha presentado una corta intrudccion.
 En el siguiente capitulo observara la perspectiva del proyecto con sus funciones, especificaciones y caracteristicas del proyecto mismo y de su futuros usuarios.
+
+# 2.	Descripción General
+
+## 2.1	Perspectivas del Producto
+
+
+
+## 2.2	Funciones del Producto
+
+
+## 2.3	Características de Usuario
+
+
+## 2.4	Restricciones
+
+
+## 2.5	Atención y Dependencias
+
+	
+# 3.	Requerimientos Específicos 
+
+## 3.1	Requerimientos Funcionales
+
+
+|codigo|    nombre   | fecha | grado necesidad      |
+|------|-------------|-------|----------------------|
+|      |             |       |                      |
+|descripcion|                                       |
+|entradas| fuente | salida | destino | restricciones|
+|        |        |        |         |              |
+|proceso |                                          |
+|efecto colateral|                                  |
+
+
+|codigo|    nombre   | fecha | grado necesidad      |
+|------|-------------|-------|----------------------|
+|      |             |       |                      |
+|descripcion|                                       |
+|entradas| fuente | salida | destino | restricciones|
+|        |        |        |         |              |
+|proceso |                                          |
+|efecto colateral|                                  |
+
+
+|codigo|    nombre   | fecha | grado necesidad      |
+|------|-------------|-------|----------------------|
+|      |             |       |                      |
+|descripcion|                                       |
+|entradas| fuente | salida | destino | restricciones|
+|        |        |        |         |              |
+|proceso |                                          |
+|efecto colateral|                                  |
