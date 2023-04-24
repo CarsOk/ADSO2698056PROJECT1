@@ -86,8 +86,7 @@ todo reflejado en el sistema.
 |proceso |                                          |
 |efecto colateral|                                  | 
 
-3.2 resquerimirntos no funcionales 
-
+## 3.2 resquerimirntos no funcionales 
 |codigo      | nombre         | fecha   |grado necesida |
 |------------|----------------|---------|---------------|
 |            |                |         |               |
@@ -107,7 +106,7 @@ todo reflejado en el sistema.
 
 
 
-3.3 requerimientos de interfaz de usuario 
+## 3.3 requerimientos de interfaz de usuario 
 |codigo      | nombre         | fecha   |grado necesida |
 |------------|----------------|---------|---------------|
 |            |                |         |               |
