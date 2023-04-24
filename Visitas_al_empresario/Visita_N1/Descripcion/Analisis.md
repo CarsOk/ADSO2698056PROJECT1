@@ -1,6 +1,6 @@
 # Analisis
 
-En esta primera vicita a la empresa hicimos un breve analisis para poder recoletar la mayor informacion posible de toda la empresa.
+En esta primera visita a la empresa hicimos un breve analisis para poder recoletar la mayor informacion posible de toda la empresa.
 
 |          Informacion general              |
 |-------------------------|-----------------|
