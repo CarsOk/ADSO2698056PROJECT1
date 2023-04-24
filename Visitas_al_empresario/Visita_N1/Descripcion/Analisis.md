@@ -2,7 +2,7 @@
 
 En esta primera vicita a la empresa hicimos un breve analisis para poder recoletar la mayor informacion posible de toda la empresa.
 
-|          Informacion general              |
+|       Informacion       |   general       |
 |-------------------------|-----------------|
 | nombre del empresario   | Duvis Gonzalez  |
 | nombre de la empresa    | Famisalud la 91 |
