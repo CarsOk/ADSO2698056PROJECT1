@@ -48,9 +48,14 @@ todo reflejado en el sistema.
 
 ## 2.4	Restricciones
 
+- como minimo se debe hacer uso de los protocolos de intercambio de datos via internet.
+respecto a la seguridad, se debe considerar el uso de sesiones para limitar el proceso a usuarios no autorizados.
+el cliente no ha espesificado ningun otro limite, y algunas de las caracteristicas las dejo a los desarrolladores 
 
 ## 2.5	Atención y Dependencias
 
+- Los requisitos descritos en este documento pueden cambiar, pues los procesos son dinámicos y por lo tanto cambia los requisitos del software, para lo cual es necesario que las fases de análisis y diseño estén bien documentadas y además definir una fase y metodología de mantenimiento del sistema.
+El sistema de información  funciona independientemente, sin necesidades de comunicarse con otros  sistemas externos, por lo que no hay dependencias respecto de otros sistemas.
 	
 # 3.	Requerimientos Específicos 
 
