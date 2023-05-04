@@ -49,16 +49,26 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 ## 2.5	Atención y Dependencias
 
--este software tendrá una dependencia de acceso a internet para poder garantizar que este funcional, por otra parte se necesitara de un equipo para manejar el software.
+- este software tendrá una dependencia de acceso a internet para poder garantizar que este funcional, por otra parte se necesitara de un equipo para manejar el software.
 	
 # 3.	Requerimientos Específicos 
 
 ## 3.1	Requerimientos Funcionales
 
 
+|codigo |    nombre   | fecha | grado necesidad      | |
+|-------|-------------|-------|----------------------|--|
+| PF001 |gestion de productos |       |      Alto           |
+|descripcion|El Software debe permitir al empresario mostrar la cantidad de productos que este dispone                         |
+|entradas| fuente | salida | destino | restricciones |
+| informcaion con la cantidad de cada producto      | empresario        |   cantidad de disponivilidad de cada producto     |       empresario  |    solo el empresario puede tener acceso a dicha información          |
+|proceso |  El software debe permitir al empresario llevar un orden de todo los productos que este dispone haciéndolo ver cuando un producto es por agotarse y facilitando el manejo de todos los productos que entran y salen de la empresa                                    |
+|efecto colateral|  Esto le dará como beneficios al empresario mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un manejo de toda la empresa                                 |
+
+
 |codigo|    nombre   | fecha | grado necesidad      |
 |------|-------------|-------|----------------------|
-|      |             |       |                      |
+|PF002|             |       |       Alto            |
 |descripcion|                                       |
 |entradas| fuente | salida | destino | restricciones|
 |        |        |        |         |              |
@@ -68,17 +78,7 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 |codigo|    nombre   | fecha | grado necesidad      |
 |------|-------------|-------|----------------------|
-|      |             |       |                      |
-|descripcion|                                       |
-|entradas| fuente | salida | destino | restricciones|
-|        |        |        |         |              |
-|proceso |                                          |
-|efecto colateral|                                  |
-
-
-|codigo|    nombre   | fecha | grado necesidad      |
-|------|-------------|-------|----------------------|
-|      |             |       |                      |
+|PF003|             |       |          Alto         |
 |descripcion|                                       |
 |entradas| fuente | salida | destino | restricciones|
 |        |        |        |         |              |
