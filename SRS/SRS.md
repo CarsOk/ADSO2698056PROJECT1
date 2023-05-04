@@ -1,7 +1,9 @@
 # 1.	Introducción 
 
 ## 1.1	Propósito
+
 El objetivo de este proyecto es desarrollar de manera clara y precisa las funcionalidades que tendrá el sistema que se desea construir, y va dirigida al proyecto formativo y al empresario.
+
 ## 1.2	alcance:
 
  El sistema que se desea construir pretende mejorar la manera en que se opera el sistema actualmente y aumentar la cantidad de beneficios obtenidos con él.
@@ -14,37 +16,30 @@ SENA: Servicio Nacional de Aprendizaje
 Sofia: Sistema Optimizado para la formación Integral del Aprendizaje Activo
 
 ## 1.4	referencia
+
 Para la realización de nuestro proyecto, solo hemos utilizado las especificaciones, e información facilitada por el empresario, y la información recolectada de los análisis planteados por nuestro equipo de trabajo.
 
 ## 1.5	Apreciación global
-EN la primera parte de este documento, se ha presentado una corta intrudccion.
-En el siguiente capitulo observara la perspectiva del proyecto con sus funciones, especificaciones y caracteristicas del proyecto mismo y de su futuros usuarios.
+
+Este proyecto se hace con el fin de brindar la mayor satisfacción posible a la empresa, brindando el mejor rendimiento a los usuarios, así como optimizando las funciones del empresario.
 
 # 2.	Descripción General
 
 ## 2.1	Perspectivas del Producto
 
-- El Sistema de Gestión del Almacén (SGA) es el software que automatiza los procesos y
+-  La principal perspectiva de este proyecto es que ningún usuario tenga que tener amplio conocimiento para usar dicho software, además el software será diseñado para tener compatibilidad con cualquier dispositivo o pagina web, brindado un fácil uso a cualquiera de los usuarios beneficiarios de este proyecto.
+
+## 2.2	Funciones del Producto
+
+- El Sistema de Gestión del Almacén (SGA) es el software que automatizara los procesos y
 permite integrar y administrar con eficacia todas las tareas operativas y logísticas de un
 espacio de almacenaje, gestionando todos los movimientos, los materiales y la maquinaria
 de trabajo de un almacén en cada una de las etapas logísticas llevadas a cabo, desde la
 recepción de mercancías hasta el almacenamiento y la preparación de la empresa.
 
-
-## 2.2	Funciones del Producto
-
-- Describe la funcionalidad del producto, proporciona un resumen de las funciones mayores
-que el software realizando, la cual se verá a detalle posteriormente. Las funciones deben
-organizarse de modo que la lista de funciones sea comprensible para el cliente o cualquiera
-que lea el documento por primera vez o pueden usar los métodos textuales o gráficos para
-mostrar las funciones diferentes y sus relaciones.
-
 ## 2.3	Características de Usuario
 
-- Un SGA es un sistema automatizado y digitalizado con toda la información del almacén.
-Cada tarea y proceso que se lleva a cabo en dicho almacén será gestionado por el
-software. Tanto los procesos de entrada como de salida, todo está diseñado para que quede
-todo reflejado en el sistema.
+- ese software estará dirigido a la empresa(Famisalud la 91) y todos los usuarios, brindando la mayor accesibilidad a todas las personas que dispongan de dicho software.
 
 ## 2.4	Restricciones
 
@@ -54,17 +49,26 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 ## 2.5	Atención y Dependencias
 
-- Los requisitos descritos en este documento pueden cambiar, pues los procesos son dinámicos y por lo tanto cambia los requisitos del software, para lo cual es necesario que las fases de análisis y diseño estén bien documentadas y además definir una fase y metodología de mantenimiento del sistema.
-El sistema de información  funciona independientemente, sin necesidades de comunicarse con otros  sistemas externos, por lo que no hay dependencias respecto de otros sistemas.
+- este software tendrá una dependencia de acceso a internet para poder garantizar que este funcional, por otra parte se necesitara de un equipo para manejar el software.
 	
 # 3.	Requerimientos Específicos 
 
 ## 3.1	Requerimientos Funcionales
 
 
+|codigo |    nombre   | fecha | grado necesidad      | |
+|-------|-------------|-------|----------------------|--|
+| PF001 |gestion de productos |       |      Alto           |
+|descripcion|El Software debe permitir al empresario mostrar la cantidad de productos que este dispone                         |
+|entradas| fuente | salida | destino | restricciones |
+| informcaion con la cantidad de cada producto      | empresario        |   cantidad de disponivilidad de cada producto     |       empresario  |    solo el empresario puede tener acceso a dicha información          |
+|proceso |  El software debe permitir al empresario llevar un orden de todo los productos que este dispone haciéndolo ver cuando un producto es por agotarse y facilitando el manejo de todos los productos que entran y salen de la empresa                                    |
+|efecto colateral|  Esto le dará como beneficios al empresario mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un manejo de toda la empresa                                 |
+
+
 |codigo|    nombre   | fecha | grado necesidad      |
 |------|-------------|-------|----------------------|
-|      |             |       |                      |
+|PF002|             |       |       Alto            |
 |descripcion|                                       |
 |entradas| fuente | salida | destino | restricciones|
 |        |        |        |         |              |
@@ -74,17 +78,7 @@ El sistema de información  funciona independientemente, sin necesidades de comu
 
 |codigo|    nombre   | fecha | grado necesidad      |
 |------|-------------|-------|----------------------|
-|      |             |       |                      |
-|descripcion|                                       |
-|entradas| fuente | salida | destino | restricciones|
-|        |        |        |         |              |
-|proceso |                                          |
-|efecto colateral|                                  |
-
-
-|codigo|    nombre   | fecha | grado necesidad      |
-|------|-------------|-------|----------------------|
-|      |             |       |                      |
+|PF003|             |       |          Alto         |
 |descripcion|                                       |
 |entradas| fuente | salida | destino | restricciones|
 |        |        |        |         |              |
