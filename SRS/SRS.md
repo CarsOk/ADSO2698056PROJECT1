@@ -55,15 +55,26 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 ## 3.1	Requerimientos Funcionales
 
+|Codigo                  | PF001                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | Gestion de productos                    |
+| Fecha                  |                                         |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            | El Software debe permitir al empresario mostrar la cantidad de productos que este dispone |
+| Entrada                | usuario                                 |
+| Fuente                 | propietario de la empresa               |
+| Salida                 | cantidad disponible de cada producto    |
+| Destino                |                                         |
+| Restricciones          | solo el personal que cuente con ususario valido puede ingresar y visualizar  dicha informacion | 
+| Efecto colateral       | Esto le brinda al empresario un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
-|codigo |    nombre   | fecha | grado necesidad      | |
-|-------|-------------|-------|----------------------|--|
-| PF001 |gestion de productos |       |      Alto           |
-|descripcion|El Software debe permitir al empresario mostrar la cantidad de productos que este dispone                         |
-|entradas| fuente | salida | destino | restricciones |
-| informcaion con la cantidad de cada producto      | empresario        |   cantidad de disponivilidad de cada producto     |       empresario  |    solo el empresario puede tener acceso a dicha información          |
-|proceso |  El software debe permitir al empresario llevar un orden de todo los productos que este dispone haciéndolo ver cuando un producto es por agotarse y facilitando el manejo de todos los productos que entran y salen de la empresa                                    |
-|efecto colateral|  Esto le dará como beneficios al empresario mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un manejo de toda la empresa                                 |
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- ingresa usuario                                                                           |
+|- verifica que elususario sea correcto                                                      |
+|- si el ususario es incorrecto vuelve a pedirlo                                             |
+|- si es usuario es correcto ingresa                                                         |
+|- muestra un regitro de todos los productos con la cantidad disponible de cada uno de estos |
 
 
 |codigo|    nombre   | fecha | grado necesidad      |
