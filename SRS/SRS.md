@@ -55,70 +55,125 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 ## 3.1	Requerimientos Funcionales
 
+|Codigo                  | PF001                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | Gestion de productos                    |
+| Fecha                  | No registra                             |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            | El Software debe permitir al empresario mostrar los productos y la cantidad con la que dispone de cada uno de estos |
+| Entrada                | Usuario                                 |
+| Fuente                 | Propietario de la empresa               |
+| Salida                 | Cantidad disponible de cada producto    |
+| Destino                | Usuario que ingreso                     |
+| Restricciones          | Solo el personal que cuente con ususario valido puede ingresar y visualizar  dicha informacion | 
+| Efecto colateral       | Esto le brinda al empresario un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
-|codigo |    nombre   | fecha | grado necesidad      | |
-|-------|-------------|-------|----------------------|--|
-| PF001 |gestion de productos |       |      Alto           |
-|descripcion|El Software debe permitir al empresario mostrar la cantidad de productos que este dispone                         |
-|entradas| fuente | salida | destino | restricciones |
-| informcaion con la cantidad de cada producto      | empresario        |   cantidad de disponivilidad de cada producto     |       empresario  |    solo el empresario puede tener acceso a dicha información          |
-|proceso |  El software debe permitir al empresario llevar un orden de todo los productos que este dispone haciéndolo ver cuando un producto es por agotarse y facilitando el manejo de todos los productos que entran y salen de la empresa                                    |
-|efecto colateral|  Esto le dará como beneficios al empresario mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un manejo de toda la empresa                                 |
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- ingresa usuario                                                                           |
+|- verifica que el ususario sea correcto                                                     |
+|- si el ususario es incorrecto vuelve a pedirlo                                             |
+|- si es usuario es correcto ingresa                                                         |
+|- muestra un regitro de todos los productos con la cantidad disponible de cada uno de estos |
 
+|Codigo                  | PF002                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | Gestion de pedidos rapidos              |
+| Fecha                  | No registra                             |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            | Debe permitir que el usuario pueda hacer una compra rapida |
+| Entrada                | Inicio de seccion                       |
+| Fuente                 | Ultimo usuario                          |
+| Salida                 | Productos que la empresa ofrece         |
+| Destino                | Encargado de la programa                |
+| Restricciones          | Si el usuario no se registra no podra hacer su compra | 
+| Efecto colateral       | Esto facilitara las compras de los usuarios y haciendo que estas sean mas rapidas e eficientes | 
 
-|codigo|    nombre   | fecha | grado necesidad      |
-|------|-------------|-------|----------------------|
-|PF002|             |       |       Alto            |
-|descripcion|                                       |
-|entradas| fuente | salida | destino | restricciones|
-|        |        |        |         |              |
-|proceso |                                          |
-|efecto colateral|                                  |
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Registrarse en el sistema                                                                 |
+|- Omitir el regitro si ya se encuentra en el sistema                                        |
+|- Inicia seccion                                                                            |
+|- Verificar que se inicie seccion correctamente                                             |
+|- Visualiza los priductos y escoge el producto a comprar                                    |
+|- Finaliza la compra                                                                        |
 
+|Codigo                  | PF003                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | Encargo o apartado de productos         |
+| Fecha                  | No registra                             |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            | El sistema debe permitir al usuario apartar un producto sin la nesecidad de llevarselo enseguida |
+| Entrada                | Inicio de seccion                       |
+| Fuente                 | Ultimo usuario                          |
+| Salida                 | Pedido apartado                         |
+| Destino                | Encargado del programa                  |
+| Restricciones          | Cada usuario solo puede apartar 3 productos diferes al  mismo tiempo | 
+| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquiliada de que un prosucto se les vaya terminar o escasear |
 
-|codigo|    nombre   | fecha | grado necesidad      |
-|------|-------------|-------|----------------------|
-|PF003|             |       |          Alto         |
-|descripcion|                                       |
-|entradas| fuente | salida | destino | restricciones|
-|        |        |        |         |              |
-|proceso |                                          |
-|efecto colateral|                                  | 
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Inica seccion                                                                             |
+|- se verifica que el inicio de seccion este correcto                                        |
+|- escoge el producto a comprar                                                              |
+|- hace un apartado del producto a comprar determinando la fecha que vendra por este         |
 
 ## 3.2 resquerimirntos no funcionales 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| PF004      | Rendimiento del programa  | No registra | Alto           |
+|descripcion | El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| PF005      | proteccion de informcion  | No registra | Alto           |
+|descripcion | El programa de garantizar la seguridad de la informcion que los usuarios ingresan |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
-
+| codigo     | nombre                      | fecha       | grado necesida |
+|------------|-----------------------------|-------------|----------------|
+| PF005      | sostenibilidad del programa | No registra | Alto           |
+|descripcion | El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario |
 
 
 ## 3.3 requerimientos de interfaz de usuario 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo      | nombre              | fecha       | grado necesida |
+|-------------|---------------------|-------------|----------------|
+| PF006       | Almacen de registro | No registra | Alto           |
+| descripcion | permitira guardar la informcaion del ususario al regitrarse en el sistema |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo      | nombre         | fecha       | grado necesida |
+|-------------|----------------|-------------|----------------|
+| PF007       | ingreso y uso  | No registra | Alto           |
+| descripcion | el programa debe terner un acceso y un uso facil para los usuarios |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo      | nombre             | fecha       | grado necesida |
+|-------------|--------------------|-------------|----------------|
+| PF008       | registro de pedido | No registra | Alto           |
+| descripcion | Se guardara un registro de cada uno de los pedidos que se hagan |
+
+# 4. Determinacion de las tecnologias de Hardware,Software y servicios requerido
+
+## 4.1 Software
+
+El software se creara utilizando el lenguaje de programacion (Python), para este trabajo utilizaremos la base de datos SQLite debido a su sencillez, eficacia asi como su rapides y usaremos a visual studio code como herramienta principal de desarrollo.
+
+## 4.2 Hosting
+
+el Hosting que utilizaremos en este trabajo no esta definido pero cabe resaltar que el servicio de hosting que se contrate debe tener la suficiente capacidad de almacenamiento para nuestro programa.
+
+## 4.3 Computador
+
+para desarrollar el software se debe contar con un computador sin importar el modelo de al menos un prosesador de 2.5 GHz y 6 nucleos, una Ran de 8 GB y un disco solido de 300 GB
+
+## 4.4 Escaner Lector Codigo de Barras Automático Soporte USB Base
+se requiere utilizar un escaner lector de barras, este debe tenre una buena calidad y tiene que ser de soporte USB
+
+## 4.5 Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N)
+
+## 4.6 Presupuesto
+
+No definido
