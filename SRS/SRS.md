@@ -58,43 +58,66 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |Codigo                  | PF001                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | Gestion de productos                    |
-| Fecha                  |                                         |
+| Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            | El Software debe permitir al empresario mostrar la cantidad de productos que este dispone |
-| Entrada                | usuario                                 |
-| Fuente                 | propietario de la empresa               |
-| Salida                 | cantidad disponible de cada producto    |
-| Destino                |                                         |
-| Restricciones          | solo el personal que cuente con ususario valido puede ingresar y visualizar  dicha informacion | 
+| Descripcion            | El Software debe permitir al empresario mostrar los productos y la cantidad con la que dispone de cada uno de estos |
+| Entrada                | Usuario                                 |
+| Fuente                 | Propietario de la empresa               |
+| Salida                 | Cantidad disponible de cada producto    |
+| Destino                | Usuario que ingreso                     |
+| Restricciones          | Solo el personal que cuente con ususario valido puede ingresar y visualizar  dicha informacion | 
 | Efecto colateral       | Esto le brinda al empresario un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
 |- ingresa usuario                                                                           |
-|- verifica que elususario sea correcto                                                      |
+|- verifica que el ususario sea correcto                                                     |
 |- si el ususario es incorrecto vuelve a pedirlo                                             |
 |- si es usuario es correcto ingresa                                                         |
 |- muestra un regitro de todos los productos con la cantidad disponible de cada uno de estos |
 
+|Codigo                  | PF002                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | Gestion de pedidos rapidos              |
+| Fecha                  | No registra                             |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            | Debe permitir que el usuario pueda hacer una compra rapida |
+| Entrada                | Registro de usuario                     |
+| Fuente                 | Ultimo usuario                          |
+| Salida                 | Productos que la empresa ofrece         |
+| Destino                | Encargado de la programa                |
+| Restricciones          | Si el usuario no se registra no podra hacer su compra | 
+| Efecto colateral       | Esto facilitara las compras de los usuarios y haciendo que estas sean mas rapidas e eficientes | 
 
-|codigo|    nombre   | fecha | grado necesidad      |
-|------|-------------|-------|----------------------|
-|PF002|             |       |       Alto            |
-|descripcion|                                       |
-|entradas| fuente | salida | destino | restricciones|
-|        |        |        |         |              |
-|proceso |                                          |
-|efecto colateral|                                  |
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Registrarse en el sistema                                                                 |
+|- Omitir el regitro si ya se encuentra en el sistema                                        |
+|- Inicia seccion                                                                            |
+|- Verificar que se inicie seccion corretamente                                              |
+|- Visualiza los priductos y escoge el producto a comprar                                    |
+|- Finaliza la compra                                                                        |
 
+|Codigo                  | PF003                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 |                                         |
+| Fecha                  |                                         |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            |                                         |
+| Entrada                |                                         |
+| Fuente                 |                                         |
+| Salida                 |                                         |
+| Destino                |                                         |
+| Restricciones          |                                         | 
+| Efecto colateral       |                                         |
 
-|codigo|    nombre   | fecha | grado necesidad      |
-|------|-------------|-------|----------------------|
-|PF003|             |       |          Alto         |
-|descripcion|                                       |
-|entradas| fuente | salida | destino | restricciones|
-|        |        |        |         |              |
-|proceso |                                          |
-|efecto colateral|                                  | 
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|-                                                                                           |
+|-                                                                                           |
+|-                                                                                           |
+|-                                                                                           |
+|-                                                                                           |
 
 ## 3.2 resquerimirntos no funcionales 
 |codigo      | nombre         | fecha   |grado necesida |
