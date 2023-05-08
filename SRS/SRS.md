@@ -94,7 +94,7 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |- Registrarse en el sistema                                                                 |
 |- Omitir el regitro si ya se encuentra en el sistema                                        |
 |- Inicia seccion                                                                            |
-|- Verificar que se inicie seccion correctamente                                              |
+|- Verificar que se inicie seccion correctamente                                             |
 |- Visualiza los priductos y escoge el producto a comprar                                    |
 |- Finaliza la compra                                                                        |
 
@@ -119,23 +119,22 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |- hace un apartado del producto a comprar determinando la fecha que vendra por este         |
 
 ## 3.2 resquerimirntos no funcionales 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| PF004      | Rendimiento del programa  | No registra | Alto           |
+|descripcion | El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| PF005      | proteccion de informcion  | No registra | Alto           |
+|descripcion | El programa de garantizar la seguridad de la informcion que los usuarios ingresan |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
-
+| codigo     | nombre                      | fecha       | grado necesida |
+|------------|-----------------------------|-------------|----------------|
+| PF005      | sostenibilidad del programa | No registra | Alto           |
+|descripcion | El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario |
 
 
 ## 3.3 requerimientos de interfaz de usuario 
