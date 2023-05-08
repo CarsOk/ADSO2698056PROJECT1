@@ -138,19 +138,19 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 
 ## 3.3 requerimientos de interfaz de usuario 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo      | nombre              | fecha       | grado necesida |
+|-------------|---------------------|-------------|----------------|
+| PF006       | Almacen de registro | No registra | Alto           |
+| descripcion | permitira guardar la informcaion del ususario al regitrarse en el sistema |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo      | nombre         | fecha       | grado necesida |
+|-------------|----------------|-------------|----------------|
+| PF007       | ingreso y uso  | No registra | Alto           |
+| descripcion | el programa debe terner un acceso y un uso facil para los usuarios |
 
 
-|codigo      | nombre         | fecha   |grado necesida |
-|------------|----------------|---------|---------------|
-|            |                |         |               |
-|descripcion |                                          |
+| codigo      | nombre             | fecha       | grado necesida |
+|-------------|--------------------|-------------|----------------|
+| PF008       | registro de pedido | No registra | Alto           |
+| descripcion | Se guardara un registro de cada uno de los pedidos que se hagan |
