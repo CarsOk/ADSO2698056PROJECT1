@@ -82,7 +82,7 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 | Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
 | Descripcion            | Debe permitir que el usuario pueda hacer una compra rapida |
-| Entrada                | Registro de usuario                     |
+| Entrada                | Inicio de seccion                       |
 | Fuente                 | Ultimo usuario                          |
 | Salida                 | Productos que la empresa ofrece         |
 | Destino                | Encargado de la programa                |
@@ -94,30 +94,29 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |- Registrarse en el sistema                                                                 |
 |- Omitir el regitro si ya se encuentra en el sistema                                        |
 |- Inicia seccion                                                                            |
-|- Verificar que se inicie seccion corretamente                                              |
+|- Verificar que se inicie seccion correctamente                                              |
 |- Visualiza los priductos y escoge el producto a comprar                                    |
 |- Finaliza la compra                                                                        |
 
 |Codigo                  | PF003                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 |                                         |
-| Fecha                  |                                         |
+| Nombre                 | Encargo o apartado de productos         |
+| Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            |                                         |
-| Entrada                |                                         |
-| Fuente                 |                                         |
-| Salida                 |                                         |
-| Destino                |                                         |
-| Restricciones          |                                         | 
-| Efecto colateral       |                                         |
+| Descripcion            | El sistema debe permitir al usuario apartar un producto sin la nesecidad de llevarselo enseguida |
+| Entrada                | Inicio de seccion                       |
+| Fuente                 | Ultimo usuario                          |
+| Salida                 | Pedido apartado                         |
+| Destino                | Encargado del programa                  |
+| Restricciones          | Cada usuario solo puede apartar 3 productos diferes al  mismo tiempo | 
+| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquiliada de que un prosucto se les vaya terminar o escasear |
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
-|-                                                                                           |
-|-                                                                                           |
-|-                                                                                           |
-|-                                                                                           |
-|-                                                                                           |
+|- Inica seccion                                                                             |
+|- se verifica que el inicio de seccion este correcto                                        |
+|- escoge el producto a comprar                                                              |
+|- hace un apartado del producto a comprar determinando la fecha que vendra por este         |
 
 ## 3.2 resquerimirntos no funcionales 
 |codigo      | nombre         | fecha   |grado necesida |
