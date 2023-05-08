@@ -154,3 +154,26 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |-------------|--------------------|-------------|----------------|
 | PF008       | registro de pedido | No registra | Alto           |
 | descripcion | Se guardara un registro de cada uno de los pedidos que se hagan |
+
+# 4. Determinacion de las tecnologias de Hardware,Software y servicios requerido
+
+## 4.1 Software
+
+El software se creara utilizando el lenguaje de programacion (Python), para este trabajo utilizaremos la base de datos SQLite debido a su sencillez, eficacia asi como su rapides y usaremos a visual studio code como herramienta principal de desarrollo.
+
+## 4.2 Hosting
+
+el Hosting que utilizaremos en este trabajo no esta definido pero cabe resaltar que el servicio de hosting que se contrate debe tener la suficiente capacidad de almacenamiento para nuestro programa.
+
+## 4.3 Computador
+
+para desarrollar el software se debe contar con un computador sin importar el modelo de al menos un prosesador de 2.5 GHz y 6 nucleos, una Ran de 8 GB y un disco solido de 300 GB
+
+## 4.4 Escaner Lector Codigo de Barras Automático Soporte USB Base
+se requiere utilizar un escaner lector de barras, este debe tenre una buena calidad y tiene que ser de soporte USB
+
+## 4.5 Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N)
+
+## 4.6 Presupuesto
+
+No definido
