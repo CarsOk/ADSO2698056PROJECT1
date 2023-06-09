@@ -1,19 +1,20 @@
 # 1.	Introducción 
 
+ANALISIS, DISEÑO, DESARROLLO E IMPLEMENTACION DE UNA APLICACION WEB EN LA FARMACIA (Famisalud La 91) PARA LA ORGANIZACION Y VENTA VIRTUAL DE UNA FARMACIA.
+
 ## 1.1	Propósito
 
-El objetivo de este proyecto es desarrollar de manera clara y precisa las funcionalidades que tendrá el sistema que se desea construir, y va dirigida al proyecto formativo y al empresario.
+El propocito de esté, es describir lo acordado con el cliente y crear paso a paso el sofware que servira para llevar a cabo el inventario y la venta de los productos que la farmacia ofrece, al sistematizar  estos procesos tendremos un mejor redimiento en el area inventario y venta.
 
 ## 1.2	alcance:
 
- El sistema que se desea construir pretende mejorar la manera en que se opera el sistema actualmente y aumentar la cantidad de beneficios obtenidos con él.
-
-Este sistema se encargará de facilitar las operaciones realizadas en la empresa (Famisalud la 91) de manera más fácil e eficiente, tales como las compras, ventas y el inventario.
+ este sistema sera una aplicacion web, que permitira llevar el control sobre la entrada y salida de los productos que se registran en una farmacia que seria el inventario y tambien se llevara a cabo la venta de estos mismos es decir crear una tienda virtual para este negocio y asi poder mejorar las ventas y la organizacion.
 
 ## 1.3	definir, acrónimo y abreviatura
 
 SENA: Servicio Nacional de Aprendizaje
 Sofia: Sistema Optimizado para la formación Integral del Aprendizaje Activo
+base de datos: una base de datos se encarga no solo de almacenar datos, sino tambien de conectarlos entre si en una unidad logica.
 
 ## 1.4	referencia
 
@@ -86,7 +87,7 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 | Fuente                 | Usuario                                 |
 | Salida                 | Mensaje al correo validando que se inicio sesion correctamente |
 | Destino                | pagina principal                        |
-| Restricciones          | dos o mas usuarios no pueden utilixar el mismo correo | 
+| Restricciones          | dos o mas usuarios no pueden utilizar el mismo correo | 
 | Efecto colateral       |                                         | 
 
 | Proceso                                                                                    | 
@@ -106,9 +107,9 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 | Entrada                | codigo del producto                     |
 | Fuente                 | base de datos                           |
 | Salida                 | Mansaje de producto agregado al carrito |
-| Destino                | carrito con la informacion de los productos agregados (nombredelProducto, descipcion, foto, cantidad, precio, codigodeproducto, fecha)       |
+| Destino                | carrito con la informacion de los productos agregados (nombre del Producto, descripcion, foto, cantidad, precio, codigodeproducto, fecha)       |
 | Restricciones          | Cada usuario solo puede apartar 3 productos diferes al  mismo tiempo | 
-| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquiliada de que un producto se les vaya terminar o escasear |
+| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquilidad de que un producto se les vaya terminar o escasear |
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
