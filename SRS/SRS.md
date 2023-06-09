@@ -57,16 +57,16 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 |Codigo                  | PF001                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 | Gestion de productos                    |
+| Nombre                 | Registro de Inventario                  |
 | Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            | El Software debe permitir al empresario mostrar los productos y la cantidad con la que dispone de cada uno de estos |
-| Entrada                | Usuario                                 |
-| Fuente                 | Propietario de la empresa               |
-| Salida                 | Cantidad disponible de cada producto    |
-| Destino                | Usuario que ingreso                     |
-| Restricciones          | Solo el personal que cuente con ususario valido puede ingresar y visualizar  dicha informacion | 
-| Efecto colateral       | Esto le brinda al empresario un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
+| Descripcion            | Debe permitir al adminidtrador mostrar los productos y la cantidad con la que dispone de cada uno de estos |
+| Entrada                | Gmail, Contraseña                       |
+| Fuente                 | Administrador                           |
+| Salida                 |  emcabezado de la pagina                |
+| Destino                | Regitro con la cantidad disponible de cada producto   |
+| Restricciones          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
+| Efecto colateral       | Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
@@ -78,16 +78,16 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 |Codigo                  | PF002                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 | Gestion de pedidos rapidos              |
+| Nombre                 | Registro de usuarios                    |
 | Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            | Debe permitir que el usuario pueda hacer una compra rapida |
-| Entrada                | Inicio de seccion                       |
-| Fuente                 | Ultimo usuario                          |
-| Salida                 | Productos que la empresa ofrece         |
-| Destino                | Encargado de la programa                |
-| Restricciones          | Si el usuario no se registra no podra hacer su compra | 
-| Efecto colateral       | Esto facilitara las compras de los usuarios y haciendo que estas sean mas rapidas e eficientes | 
+| Descripcion            | Debe permitir al usuario iniciar sesion con un tipo de usuario ya sea (Administrador, empleado o cliente) |
+| Entrada                | Nombre, Apellidos, Telefono, direccion, correo, Contraseña, identificacion, tipo de usuario  |
+| Fuente                 | Usuario                                 |
+| Salida                 | Mensaje al correo validando que se inicio sesion correctamente |
+| Destino                | pagina principal                        |
+| Restricciones          | dos o mas usuarios no pueden utilixar el mismo correo | 
+| Efecto colateral       |                                         | 
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
@@ -95,28 +95,28 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |- Omitir el regitro si ya se encuentra en el sistema                                        |
 |- Inicia seccion                                                                            |
 |- Verificar que se inicie seccion correctamente                                             |
-|- Visualiza los priductos y escoge el producto a comprar                                    |
-|- Finaliza la compra                                                                        |
+|- Visualiza la pagina principal                                                             |
 
 |Codigo                  | PF003                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 | Encargo o apartado de productos         |
+| Nombre                 | Modulo de carrito                       |
 | Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            | El sistema debe permitir al usuario apartar un producto sin la nesecidad de llevarselo enseguida |
-| Entrada                | Inicio de seccion                       |
-| Fuente                 | Ultimo usuario                          |
-| Salida                 | Pedido apartado                         |
-| Destino                | Encargado del programa                  |
+| Descripcion            |permite al usuario agregar productos al carrito y apartar un producto sin la nesecidad de llevarselo enseguida |
+| Entrada                | codigo del producto                     |
+| Fuente                 | base de datos                           |
+| Salida                 | Mansaje de producto agregado al carrito |
+| Destino                | carrito con la informacion de los productos agregados (nombredelProducto, descipcion, foto, cantidad, precio, codigodeproducto, fecha)       |
 | Restricciones          | Cada usuario solo puede apartar 3 productos diferes al  mismo tiempo | 
-| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquiliada de que un prosucto se les vaya terminar o escasear |
+| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquiliada de que un producto se les vaya terminar o escasear |
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
 |- Inica seccion                                                                             |
 |- se verifica que el inicio de seccion este correcto                                        |
 |- escoge el producto a comprar                                                              |
-|- hace un apartado del producto a comprar determinando la fecha que vendra por este         |
+|- Ingresa producto al carrito                                                               |       
+|- hace un apartado del producto a comprar determinando la fecha que vendra por este. (Opcional )   |
 
 ## 3.2 resquerimirntos no funcionales 
 | codigo     | nombre                    | fecha       | grado necesida |
