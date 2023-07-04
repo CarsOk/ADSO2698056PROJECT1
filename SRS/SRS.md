@@ -59,14 +59,14 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |Codigo                  | PF001                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | Registro de Inventario                  |
-| Fecha                  | No registra                             |
+| Fecha                  | 04/ 27 / 2023                             |
 | Grado de nesecidad     | Alto                                    |
 | Descripcion            | Debe permitir al adminidtrador mostrar los productos y la cantidad con la que dispone de cada uno de estos |
 | Entrada                | Gmail, Contraseña                       |
 | Fuente                 | Administrador                           |
-| Salida                 |  emcabezado de la pagina                |
+| Salida                 |  emcabezado de inventario             |
 | Destino                | Regitro con la cantidad disponible de cada producto   |
-| Restricciones          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
+| Restriccion          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
 | Efecto colateral       | Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
 | Proceso                                                                                    | 
@@ -79,16 +79,16 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 
 |Codigo                  | PF002                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 | Registro de usuarios                    |
-| Fecha                  | No registra                             |
+| Nombre                 | inicio de sesion                        |
+| Fecha                  |  04 / 07 / 2023                         |
 | Grado de nesecidad     | Alto                                    |
 | Descripcion            | Debe permitir al usuario iniciar sesion con un tipo de usuario ya sea (Administrador, empleado o cliente) |
-| Entrada                | Nombre, Apellidos, Telefono, direccion, correo, Contraseña, identificacion, tipo de usuario  |
+| Entrada                | tipo de ususario, identificacion y contraseña                        |
 | Fuente                 | Usuario                                 |
 | Salida                 | Mensaje al correo validando que se inicio sesion correctamente |
 | Destino                | pagina principal                        |
-| Restricciones          | dos o mas usuarios no pueden utilizar el mismo correo | 
-| Efecto colateral       |                                         | 
+| Restriccion          | dos o mas usuarios no pueden utilizar la misma identificacion | 
+| Efecto colateral       | no se desplegaria pagina principal                             | 
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
@@ -101,15 +101,15 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |Codigo                  | PF003                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | Modulo de carrito                       |
-| Fecha                  | No registra                             |
-| Grado de nesecidad     | Alto                                    |
+| Fecha                  |  04 / 07 / 2023                              |
+| Grado de nesecidad     | media                                   |
 | Descripcion            |permite al usuario agregar productos al carrito y apartar un producto sin la nesecidad de llevarselo enseguida |
-| Entrada                | codigo del producto                     |
+| Entrada                | boton (agregar al carrito)                     |
 | Fuente                 | base de datos                           |
 | Salida                 | Mansaje de producto agregado al carrito |
-| Destino                | carrito con la informacion de los productos agregados (nombre del Producto, descripcion, foto, cantidad, precio, codigodeproducto, fecha)       |
-| Restricciones          | Cada usuario solo puede apartar 3 productos diferes al  mismo tiempo | 
-| Efecto colateral       | Esto hara que los usuarios tengan mayor tranquilidad de que un producto se les vaya terminar o escasear |
+| Destino                | carrito con la informacion de los productos agregados (nombre del Producto, descripcion, foto, cantidad, precio, codigo deproducto, fecha)       |
+| Restriccion            | debe de estar registrado para poder agregar productos al carrito | 
+| Efecto colateral       | sin productos en el carrito no habra compra |
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
@@ -118,6 +118,51 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 |- escoge el producto a comprar                                                              |
 |- Ingresa producto al carrito                                                               |       
 |- hace un apartado del producto a comprar determinando la fecha que vendra por este. (Opcional )   |
+
+
+|Codigo                  | PF004                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | Registro de usuario                     |
+| Fecha                  | No registra                             |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            |permite al usuario registrase en el sistema, como cuenta tipo (usuario) |
+| Entrada                | nombre, apellidos,  identificacion, direccion, correo, contraseña                     |
+| Fuente                 | usuario                                |
+| Salida                 | mensaje de registro exitoso            |
+| Destino                | modulo metodo de pago                   |
+| Restriccion            | no debe haber dos cuentas con el mismo correo | 
+| Efecto colateral       | no se podria llevar a cabo ningun tipo de compra |
+
+
+|Codigo                  | PF005                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | modulo metodo de pago                          |
+| Fecha                  |  04 / 07 / 2023                              |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            |permite al usuario seleccionar la forma de pago del producto|
+| Entrada                | efectivo y tarjeta |
+| Fuente                 | usuario                                |
+| Salida                 | mensaje via gmail                      |
+| Destino                | modulo de factura                   |
+| Restriccion          | es obligario seleccionar un metodo de pago | 
+| Efecto colateral       | no seria posible escoger la forma de pago del producto |
+
+
+|Codigo                  | PF006                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 |  modulo de Productos                               |
+| Fecha                  |  04 / 07 / 2023                              |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            |detalles de cada producto para su organizacion |
+| Entrada                | nombre, Codigo, Cantidad                       |
+| Fuente                 | Empleado                                |
+| Salida                 | Producto añadido                        |
+| Destino                | Inventario (nombre, Codigo, Cantidad)   |
+| Restriccion          | Solo los empleados/administrador Pueden Ingresar a este requerimiento |
+| Efecto colateral       | NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente |
+
+
+
 
 ## 3.2 resquerimirntos no funcionales 
 | codigo     | nombre                    | fecha       | grado necesida |
