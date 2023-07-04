@@ -8,49 +8,76 @@ El propocito de esté, es describir lo acordado con el cliente y crear paso a pa
 
 ## 1.2	alcance:
 
- este sistema sera una aplicacion web, que permitira llevar el control sobre la entrada y salida de los productos que se registran en una farmacia que seria el inventario y tambien se llevara a cabo la venta de estos mismos es decir crear una tienda virtual para este negocio y asi poder mejorar las ventas y la organizacion.
+Realizaremos una tienda virtual con inventario, que permitira llevar el control sobre la entrada y salida de los productos que se registran en la farmacia (famisalud la 91), se llevara a cabo la venta de estos mismos todo esto con el fin de poder mejorar las ventas y la organizacion, en este proyecto no realizaremos la instalacion ni haremos el mantenimiento del software.  
 
 ## 1.3	definir, acrónimo y abreviatura
 
-SENA: Servicio Nacional de Aprendizaje
-Sofia: Sistema Optimizado para la formación Integral del Aprendizaje Activo
-base de datos: una base de datos se encarga no solo de almacenar datos, sino tambien de conectarlos entre si en una unidad logica.
+SENA: Servicio Nacional de Aprendizaje.
+
+Sofia: Sistema Optimizado para la formación Integral del Aprendizaje Activo.
+
+Base de datos: una base de datos se encarga no solo de almacenar datos, sino tambien de conectarlos entre si en una unidad logica.
+
+Software: Estos son los programas informáticos que hacen posible la ejecución de tareas específicas dentro de un computador. Por ejemplo, los sistemas operativos, aplicaciones, navegadores web, juegos o programas.
+
+inventario: El inventario es la comprobación manual de que las cantidades físicas y reales en stock de cada producto de nuestra farmacia coinciden con las cantidades de cada producto registradas en el programa informático de gestión.
+
+Firewall: es un sistema de seguridad de red de las computadoras que restringe el tráfico de Internet entrante, saliente o dentro de una red privada.
+
+Requerimientos funcionales: describen las capacidades o funciones que el sistema será capaz de realizar.
+
+Requerimientos no funcionales: restricciones o características que de delimitan el sistema, como por ejemplo, rendimiento, interfaces de usuario, fiabilidad, seguridad, portabilidad, normas, entre otros.
 
 ## 1.4	referencia
 
-Para la realización de nuestro proyecto, solo hemos utilizado las especificaciones, e información facilitada por el empresario, y la información recolectada de los análisis planteados por nuestro equipo de trabajo.
+https://edu.gcfglobal.org/es/informatica-basica/que-es-hardware-y-software/1/
+
+https://www.arimetrics.com/glosario-digital/base-de-datos
+
+https://www.mcafee.com/es-co/antivirus/firewall.html
+
+http://www.pmoinformatica.com/2018/05/que-es-requerimiento-funcional.html
+
+https://visuresolutions.com/es/blog/non-functional-requirements/
 
 ## 1.5	Apreciación global
 
-Este proyecto se hace con el fin de brindar la mayor satisfacción posible a la empresa, brindando el mejor rendimiento a los usuarios, así como optimizando las funciones del empresario.
+En este documento se presenta una introducción corta .
+Dónde en la siguiente parte se puede ver la perspectiva del proyecto, con sus funciones, especificaciones y características del proyecto mismo y de sus futuros usuarios. 
+En el punto 3 se presenta una especificación detallada de requerimientos que son necesarios para el análisis, diseño, desarrollo e implementación del sistema.
+
 
 # 2.	Descripción General
 
 ## 2.1	Perspectivas del Producto
 
--  La principal perspectiva de este proyecto es que ningún usuario tenga que tener amplio conocimiento para usar dicho software, además el software será diseñado para tener compatibilidad con cualquier dispositivo o pagina web, brindado un fácil uso a cualquiera de los usuarios beneficiarios de este proyecto.
-
+-  Con este software se espera una mejora en la forma de cómo se maneja parte de la venta y parte del inventario en la farmacia famisalud la 91.
+- Dicho inventario será la mejor manera de llevar la informacion de las ventas y el registro de los productos 
 ## 2.2	Funciones del Producto
-
-- El Sistema de Gestión del Almacén (SGA) es el software que automatizara los procesos y
-permite integrar y administrar con eficacia todas las tareas operativas y logísticas de un
-espacio de almacenaje, gestionando todos los movimientos, los materiales y la maquinaria
-de trabajo de un almacén en cada una de las etapas logísticas llevadas a cabo, desde la
-recepción de mercancías hasta el almacenamiento y la preparación de la empresa.
+- Registrar cliente.
+- Registrar producto.
+- Registrar detalles de compra.
+- Registrar productos de ingreso.
+- Registrar productos de salida.
+- Registrar detalle de pedido.
+- Visualizacion de productos disponibles.
+- Generar reporte de productos escasos.
 
 ## 2.3	Características de Usuario
 
-- ese software estará dirigido a la empresa(Famisalud la 91) y todos los usuarios, brindando la mayor accesibilidad a todas las personas que dispongan de dicho software.
+- Los usuarios seran los clientes, los empleados y los administradores.
+
+- Los clientes trendan acceso a la visualizacion y compra de los productos que se encuentren disponibles.
+- Los empleados tendra a acceso al registro de los productos que ingresan y salen de la farmacia y al apartado de los pedidos y las ventas realizadas en fisico.
+- El administrador tendra acceso a las ventas y al registro de los productos.
 
 ## 2.4	Restricciones
 
-- como minimo se debe hacer uso de los protocolos de intercambio de datos via internet.
-respecto a la seguridad, se debe considerar el uso de sesiones para limitar el proceso a usuarios no autorizados.
-el cliente no ha espesificado ningun otro limite, y algunas de las caracteristicas las dejo a los desarrolladores 
+- Para este sistema las posibles restricciones son el tiempo que tomará el desarrollo de este, recursos donde se implantara el sistema, el nivel del lenguaje programación para los desarrolladores
 
 ## 2.5	Atención y Dependencias
 
-- este software tendrá una dependencia de acceso a internet para poder garantizar que este funcional, por otra parte se necesitara de un equipo para manejar el software.
+- El sistema llevara el registro de las ventas, el inventario, el registro de los pedidos y el registro de los clientes. 
 	
 # 3.	Requerimientos Específicos 
 
@@ -61,7 +88,7 @@ el cliente no ha espesificado ningun otro limite, y algunas de las caracteristic
 | Nombre                 | Registro de Inventario                  |
 | Fecha                  | No registra                             |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            | Debe permitir al adminidtrador mostrar los productos y la cantidad con la que dispone de cada uno de estos |
+| Descripcion            | Debe permitir al administrador mostrar los productos y la cantidad con la que dispone de cada uno de estos |
 | Entrada                | Gmail, Contraseña                       |
 | Fuente                 | Administrador                           |
 | Salida                 |  emcabezado de la pagina                |
