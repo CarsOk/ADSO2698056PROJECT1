@@ -51,7 +51,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 
 ## 2.1	Perspectivas del Producto
 
--  Con este software se espera una mejora en la forma de cómo se maneja parte de las ventas y parte del inventario en la farmacia famisalud la 91.
+-  Con este software se espera una mejora en la forma de cómo se maneja parte de la venta y parte del inventario en la farmacia famisalud la 91.
 - Dicho inventario será la mejor manera de llevar la informacion de las ventas y el registro de los productos 
 ## 2.2	Funciones del Producto
 - Registrar cliente.
@@ -93,7 +93,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Fuente                 | Administrador                           |
 | Salida                 |  emcabezado de inventario             |
 | Destino                | Regitro con la cantidad disponible de cada producto   |
-| Restriccion          | Solo el personal administrativo que cuente con usuario valido puede ingresar y visualizar dicha informacion | 
+| Restriccion          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
 | Efecto colateral       | Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
 | Proceso                                                                                    | 
@@ -189,20 +189,6 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Efecto colateral       | NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente |
 
 
-|Codigo                  | PF009                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | Main                                    |
-| Fecha                  | no registra                              |
-| Grado de nesecidad     | alto                                   |
-| Descripcion            |en este requerimiento se va a organizar la pagina principal a la cual van a acceder los usuarios despues de iniciar sesion  |
-| Entrada                | inicio de sesion/ registrarse                     |
-| Fuente                 | base de datos                           |
-| Salida                 |     |
-| Destino                | main      |
-| Restriccion          | tiene que estar logueado para poder acceder a este apartado | 
-| Efecto colateral       | manda al cliente a iniciar sesion en su cuenta o a que se registre |
-
-
 
 
 ## 3.2 resquerimirntos no funcionales 
@@ -254,10 +240,10 @@ el Hosting que utilizaremos en este trabajo no esta definido pero cabe resaltar 
 
 ## 4.3 Computador
 
-para desarrollar el software se debe contar con un computador sin importar el modelo de al menos un procesador de 2.5 GHz y 6 nucleos, una Ram de 8 GB y un disco solido de 300 GB
+para desarrollar el software se debe contar con un computador sin importar el modelo de al menos un prosesador de 2.5 GHz y 6 nucleos, una Ran de 8 GB y un disco solido de 300 GB
 
 ## 4.4 Escaner Lector Codigo de Barras Automático Soporte USB Base
-se requiere utilizar un escaner lector de barras, este debe tener una buena calidad y tiene que ser de soporte USB
+se requiere utilizar un escaner lector de barras, este debe tenre una buena calidad y tiene que ser de soporte USB
 
 ## 4.5 Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N)
 
