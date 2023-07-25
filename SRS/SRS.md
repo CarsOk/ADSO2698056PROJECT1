@@ -208,24 +208,24 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 ## 3.2 resquerimirntos no funcionales 
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
-| RNF001      | Rendimiento del programa  | No registra | Alto           |
+| RNF001     | Rendimiento del programa  | 25/072023   | Alto           |
 |descripcion | El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios |
 
 
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
-| RNF002      | proteccion de informcion  | No registra | Alto           |
+| RNF002     | proteccion de informcion  | 25/072023   | Alto           |
 |descripcion | El programa de garantizar la seguridad de la informcion que los usuarios ingresan |
 
 
 | codigo     | nombre                      | fecha       | grado necesida |
 |------------|-----------------------------|-------------|----------------|
-| RNF003      | sostenibilidad del programa | No registra | Alto           |
+| RNF003     | sostenibilidad del programa | 25/072023   | Alto           |
 |descripcion | El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario |
 
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
-| RNF004      | proteccion de informcion  | No registra | Alto           |
+| RNF004     |  Usabilidad               | 25/072023   | Medio          |
 |descripcion | El programa de garantizar la seguridad de la informcion  |
 
 
