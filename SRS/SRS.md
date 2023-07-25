@@ -189,6 +189,20 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Efecto colateral       | NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente |
 
 
+|Codigo                  | PF007                                   |
+|------------------------|-----------------------------------------|
+| Nombre                 | main                                    |
+| Fecha                  |  04 / 07 / 2023                         |
+| Grado de nesecidad     | Alto                                    |
+| Descripcion            | en este requerimiento se va a organizar la pagina principal a la cual se van a acceder los usuarios despues de iniciar sesion |
+| Entrada                | inicio de sesion                        |
+| Fuente                 | base de datos                                 |
+| Salida                 |    |
+| Destino                | main                                    |
+| Restriccion          | tiene que estar logueado para poder acceder a este apartado | 
+| Efecto colateral       | manda al cliente a iniciar sesion en su cuenta o a que se registre                            | 
+
+
 
 
 ## 3.2 resquerimirntos no funcionales 
