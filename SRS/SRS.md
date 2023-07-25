@@ -225,8 +225,14 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
-| RNF004     |  Usabilidad               | 25/072023   | Medio          |
-|descripcion | El programa de garantizar la seguridad de la informcion  |
+| RNF004     | Usabilidad                | 25/072023   | Medio          |
+|descripcion | La interfaz del programa debe ser lo mas clara y sencilla posible para que a los usuarios se le facilite su manejo de la mejor manera |
+
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| RNF005     | Eficacia                  | 25/072023   | Alto           |
+|descripcion | |
+
 
 
 ## 3.3 requerimientos de interfaz de usuario 
