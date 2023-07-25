@@ -231,9 +231,12 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
 | RNF005     | Eficacia                  | 25/072023   | Alto           |
-|descripcion | |
+|descripcion | El programa de brindar la mejor eficacia para mayor satisfacción y para una mejor experiencia de parte de los usuarios |
 
-
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| RNF006     | Restricciones             | 25/072023   | Medio          |
+|descripcion | El programa debe tener ciertas restricciones dependiendo el rol con el que se este ejecutando el programa |
 
 ## 3.3 requerimientos de interfaz de usuario 
 | codigo      | nombre              | fecha       | grado necesida |
