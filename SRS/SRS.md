@@ -83,7 +83,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 
 ## 3.1	Requerimientos Funcionales
 
-|Codigo                  | PF001                                   |
+|Codigo                  | RF001                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | Registro de Inventario                  |
 | Fecha                  | 04/ 27 / 2023                             |
@@ -104,7 +104,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 |- si es usuario es correcto ingresa                                                         |
 |- muestra un regitro de todos los productos con la cantidad disponible de cada uno de estos |
 
-|Codigo                  | PF002                                   |
+|Codigo                  | RF002                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | inicio de sesion                        |
 | Fecha                  |  04 / 07 / 2023                         |
@@ -125,7 +125,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 |- Verificar que se inicie seccion correctamente                                             |
 |- Visualiza la pagina principal                                                             |
 
-|Codigo                  | PF003                                   |
+|Codigo                  | RF003                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | Modulo de carrito                       |
 | Fecha                  |  04 / 07 / 2023                              |
@@ -147,7 +147,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 |- hace un apartado del producto a comprar determinando la fecha que vendra por este. (Opcional )   |
 
 
-|Codigo                  | PF004                                   |
+|Codigo                  | RF004                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | Registro de usuario                     |
 | Fecha                  | No registra                             |
@@ -161,7 +161,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Efecto colateral       | no se podria llevar a cabo ningun tipo de compra |
 
 
-|Codigo                  | PF005                                   |
+|Codigo                  | RF005                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | modulo metodo de pago                          |
 | Fecha                  |  04 / 07 / 2023                              |
@@ -175,7 +175,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Efecto colateral       | no seria posible escoger la forma de pago del producto |
 
 
-|Codigo                  | PF006                                   |
+|Codigo                  | RF006                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 |  modulo de Productos                               |
 | Fecha                  |  04 / 07 / 2023                              |
@@ -189,7 +189,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Efecto colateral       | NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente |
 
 
-|Codigo                  | PF007                                   |
+|Codigo                  | RF007                                   |
 |------------------------|-----------------------------------------|
 | Nombre                 | main                                    |
 | Fecha                  |  04 / 07 / 2023                         |
@@ -208,21 +208,35 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 ## 3.2 resquerimirntos no funcionales 
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
-| PF004      | Rendimiento del programa  | No registra | Alto           |
+| RNF001     | Rendimiento del programa  | 25/072023   | Alto           |
 |descripcion | El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios |
 
 
 | codigo     | nombre                    | fecha       | grado necesida |
 |------------|---------------------------|-------------|----------------|
-| PF005      | proteccion de informcion  | No registra | Alto           |
+| RNF002     | proteccion de informcion  | 25/072023   | Alto           |
 |descripcion | El programa de garantizar la seguridad de la informcion que los usuarios ingresan |
 
 
 | codigo     | nombre                      | fecha       | grado necesida |
 |------------|-----------------------------|-------------|----------------|
-| PF005      | sostenibilidad del programa | No registra | Alto           |
+| RNF003     | sostenibilidad del programa | 25/072023   | Alto           |
 |descripcion | El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario |
 
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| RNF004     | Usabilidad                | 25/072023   | Medio          |
+|descripcion | La interfaz del programa debe ser lo mas clara y sencilla posible para que a los usuarios se le facilite su manejo de la mejor manera |
+
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| RNF005     | Eficacia                  | 25/072023   | Alto           |
+|descripcion | El programa de brindar la mejor eficacia para mayor satisfacción y para una mejor experiencia de parte de los usuarios |
+
+| codigo     | nombre                    | fecha       | grado necesida |
+|------------|---------------------------|-------------|----------------|
+| RNF006     | Restricciones             | 25/072023   | Medio          |
+|descripcion | El programa debe tener ciertas restricciones dependiendo el rol con el que se este ejecutando el programa |
 
 ## 3.3 requerimientos de interfaz de usuario 
 | codigo      | nombre              | fecha       | grado necesida |
