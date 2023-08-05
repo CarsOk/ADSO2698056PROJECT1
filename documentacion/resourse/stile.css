@@ -1,0 +1,25 @@
+
+#mh {
+    border: 1px solid red; 
+    height: 80px;
+    margin-bottom: 10px; 
+    width: 100;
+} 
+#mn {
+    border: 1px solid blue; 
+    height: 500px;
+    width: 150px;
+    display: flex; 
+    justify-content: left;
+    
+    float: left;
+
+}
+#ma {
+    border: 1px solid royalblue;
+    float: right;
+    height: auto;
+    margin-right:20px;
+    width: 1150px; 
+
+}
