@@ -96,7 +96,12 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Restriccion          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
 | Efecto colateral       | Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
-
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- El sistema valida que la cuenta tenga rol administrador                                   |
+|- El sistema despliega el main_admin                                                        |
+|- El sistema despliega el icono de administrar inventario                                   |
+|- El administrador ingresa a administrar el inventario                                      |       
 
 |Codigo                  | RF002                                   |
 |------------------------|-----------------------------------------|
@@ -111,7 +116,13 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Restriccion          | dos o mas usuarios no pueden utilizar la misma identificacion | 
 | Efecto colateral       | no se desplegaria pagina principal                             | 
 
-
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Ingresa al main                                                                           |
+|- El sistema carga por predeterminado el main-cliente                                       |
+|- Ingresa al icono de iniciar seccion                                                       |
+|- Ingresa el correo y la contraseña                                                         |       
+|- realiza el inicio de seccion                                                              |
 
 |Codigo                  | RF003                                   |
 |------------------------|-----------------------------------------|
@@ -128,12 +139,12 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
-|-   |
-|-   |
-|-   |
-|-   |       
-|-   |
-
+|- Ingrsar al main                                                                           |
+|- Por predeterminado carga el main-cliente                                                  |
+|- seleciona productos que va a agregar al carrito                                           |
+|- El sistema valida que el cliente este logeado                                             |       
+|- en caso de no estarlo el sistema solicita que se logee                                    |
+|- En caso de si estarlo el sistema agrega los productos al carrito                          |
 
 |Codigo                  | RF004                                   |
 |------------------------|-----------------------------------------|
@@ -148,34 +159,52 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Restriccion            | no debe haber dos cuentas con el mismo correo | 
 | Efecto colateral       | no se podria llevar a cabo ningun tipo de compra |
 
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Ingresar al main                                                                          |
+|- El sistema carga por predeterminado el main-cliente                                       |
+|- Ingresa al icono registrarse                                                              |
+|- ingresa la infor8macion solicitada por el sistema                                          |       
+|- realiza el registro                                                                       |
 
 |Codigo                  | RF005                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 | modulo metodo de pago                          |
-| Fecha                  |  04 / 07 / 2023                              |
+| Nombre                 | comprar productos                       |
+| Fecha                  |  04 / 07 / 2023                         |
 | Grado de nesecidad     | Alto                                    |
-| Descripcion            |permite al usuario seleccionar la forma de pago del producto|
-| Entrada                | efectivo y tarjeta |
-| Fuente                 | usuario                                |
-| Salida                 | mensaje via gmail                      |
-| Destino                | modulo de factura                   |
-| Restriccion          | es obligario seleccionar un metodo de pago | 
-| Efecto colateral       | no seria posible escoger la forma de pago del producto |
+| Descripcion            |permite al usuario realizar una compra   |
+| Entrada                |direccion, forma de pago                 |
+| Fuente                 | usuario                                 |
+| Salida                 | mensaje via gmail                       |
+| Destino                | modulo del carrito                      |
+| Restriccion            | es obligario seleccionar un metodo de pago | 
+| Efecto colateral       | no se podria realizar ningun tipo de compra |
 
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Valida que haya productos en el carrito                                                   |
+|- El sistema le pedira unos datos                                                           |
+|- finaliza la compra                                                                        |
 
 |Codigo                  | RF006                                   |
 |------------------------|-----------------------------------------|
-| Nombre                 |  modulo de Productos                               |
-| Fecha                  |  04 / 07 / 2023                              |
+| Nombre                 |  modulo de Productos                    |
+| Fecha                  |  04 / 07 / 2023                         |
 | Grado de nesecidad     | Alto                                    |
 | Descripcion            |detalles de cada producto para su organizacion |
-| Entrada                | nombre, Codigo, Cantidad                       |
+| Entrada                | nombre, Codigo, Cantidad                |
 | Fuente                 | Empleado                                |
 | Salida                 | Producto añadido                        |
 | Destino                | Inventario (nombre, Codigo, Cantidad)   |
 | Restriccion          | Solo los empleados/administrador Pueden Ingresar a este requerimiento |
 | Efecto colateral       | NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente |
 
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- El sistema valida que la cuenta tenga rol empleado                                        |
+|- El sistema despliega el main-empleado                                                     |
+|- El sistema despliega icono de gestionar productos                                         |
+|- El empleado ingresa a gestionar los preductos (agregar-modificar-eliminar)                |       
 
 |Codigo                  | RF007                                   |
 |------------------------|-----------------------------------------|
@@ -184,14 +213,20 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Grado de nesecidad     | Alto                                    |
 | Descripcion            | en este requerimiento se va a organizar la pagina principal a la cual se van a acceder los usuarios despues de iniciar sesion |
 | Entrada                | inicio de sesion                        |
-| Fuente                 | base de datos                                 |
-| Salida                 |    |
+| Fuente                 | base de datos                           |
+| Salida                 | Mensaje Gmail                           |
 | Destino                | main                                    |
 | Restriccion          | tiene que estar logueado para poder acceder a este apartado | 
 | Efecto colateral       | manda al cliente a iniciar sesion en su cuenta o a que se registre                            | 
 
-
-
+| Proceso                                                                                    | 
+|--------------------------------------------------------------------------------------------|
+|- Al acceder a la url del la pagina sera direccionado/a al main                             |
+|- El sistema cargar por predeterminado el main-Cliente                                      |
+|- Al iniciar seccion como admin                                                             |
+|- El sistema cargara el main-admin                                                          |       
+|- Al iniciar seccion como empleado                                                          |
+|- El sistema cargara el main-empleado                                                       |
 
 ## 3.2 resquerimirntos no funcionales 
 | codigo     | nombre                    | fecha       | grado necesida |
