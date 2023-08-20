@@ -96,13 +96,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Restriccion          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
 | Efecto colateral       | Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
 
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- ingresa usuario                                                                           |
-|- verifica que el ususario sea correcto                                                     |
-|- si el ususario es incorrecto vuelve a pedirlo                                             |
-|- si es usuario es correcto ingresa                                                         |
-|- muestra un regitro de todos los productos con la cantidad disponible de cada uno de estos |
+
 
 |Codigo                  | RF002                                   |
 |------------------------|-----------------------------------------|
@@ -117,13 +111,7 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 | Restriccion          | dos o mas usuarios no pueden utilizar la misma identificacion | 
 | Efecto colateral       | no se desplegaria pagina principal                             | 
 
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Registrarse en el sistema                                                                 |
-|- Omitir el regitro si ya se encuentra en el sistema                                        |
-|- Inicia seccion                                                                            |
-|- Verificar que se inicie seccion correctamente                                             |
-|- Visualiza la pagina principal                                                             |
+
 
 |Codigo                  | RF003                                   |
 |------------------------|-----------------------------------------|
@@ -140,11 +128,11 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 
 | Proceso                                                                                    | 
 |--------------------------------------------------------------------------------------------|
-|- Inica seccion                                                                             |
-|- se verifica que el inicio de seccion este correcto                                        |
-|- escoge el producto a comprar                                                              |
-|- Ingresa producto al carrito                                                               |       
-|- hace un apartado del producto a comprar determinando la fecha que vendra por este. (Opcional )   |
+|-   |
+|-   |
+|-   |
+|-   |       
+|-   |
 
 
 |Codigo                  | RF004                                   |
