@@ -1,16 +1,29 @@
 
 * {
-   background-color: #3B4545;
+    background-color: #3B4545;
     padding: 0;
     margin: 0;
 }
 #header {
     background-color: #1F2727;
-    height: 80px;
+    height: 100px;
     margin-bottom: 10px; 
     width: auto;
 } 
-
+#title {
+    background-color: #1F2727;
+    color: white;
+    font-size: 40px;
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+}
+#title2 {
+    background-color: #1F2727;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
 #section {
     color: white; 
     height: auto;

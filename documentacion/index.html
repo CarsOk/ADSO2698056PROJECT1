@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resourse/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap" rel="stylesheet">
     <title>Documentación</title>
 </head>
 <body>
     <header id="header">
-        
+        <div id="title">Proyecto Formativo</div>
+        <div id="title2">ANALISIS, DISEÑO, DESARROLLO E IMPLEMENTACION DE UNA APLICACION WEB EN LA FARMACIA (Famisalud La 91) PARA LA ORGANIZACION Y VENTA VIRTUAL DE UNA FARMACIA.</div>
     </header>
     <section id="section">
         <details>
@@ -308,6 +312,402 @@
                     <td>- hace un apartado del producto a comprar determinando la fecha que vendra por este. (Opcional )</td>
                 </tr>
                 </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>Codigo</th>
+                        <td>RF004</td>
+                    </tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <td>Registro de usuario</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha </th>
+                        <td>No registra</td>
+                    </tr>
+                    <tr>
+                        <th>Grado de nesecidad</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>Descripcion</th>
+                        <td>permite al usuario registrase en el sistema, como cuenta tipo (usuario)</td>
+                    </tr>
+                    <tr>
+                        <th>Entrada</th>
+                        <td>nombre, apellidos,  identificacion, direccion, correo, contraseña</td>
+                    </tr>
+                    <tr>
+                        <th>Fuente</th>
+                        <td>usuario </td>
+                    </tr>
+                    <tr>
+                        <th> Salida </th>
+                        <td>mensaje de registro exitoso  </td>
+                    </tr>
+                    <tr>
+                        <th> Destino </th>
+                        <td>modulo metodo de pago</td>
+                    </tr>
+                    <tr>
+                        <th>Restriccion</th>
+                        <td>no debe haber dos cuentas con el mismo correo</td>
+                    </tr>
+                    <tr>
+                        <th> Efecto colateral</th>
+                        <td>no se podria llevar a cabo ningun tipo de compra</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>Codigo </th>
+                        <td>RF005</td>
+                    </tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <td>metodmoduloo de pago</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>04 / 07 / 2023</td>
+                    </tr>
+                    <tr>
+                        <th>Grado de nesecidad</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>Descripcion</th>
+                        <td>permite al usuario seleccionar la forma de pago del producto</td>
+                    </tr>
+                    <tr>
+                        <th>Entrada</th>
+                        <td>efectivo y tarjeta</td>
+                    </tr>
+                    <tr>
+                        <th>Fuente </th>
+                        <td>usuario</td>
+                    </tr>
+                    <tr>
+                        <th>Salida</th>
+                        <td>mensaje via gmail</td>
+                    </tr>
+                    <tr>
+                        <th>Destino</th>
+                        <td>modulo de factura</td>
+                    </tr>
+                    <tr>
+                        <th>Restriccion</th>
+                        <td>es obligario seleccionar un metodo de pago</td>
+                    </tr>
+                    <tr>
+                        <th>Efecto colateral</th>
+                        <td>no seria posible escoger la forma de pago del producto</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>Codigo</th>
+                        <td>RF006</td>
+                    </tr>
+                    <tr>
+                        <th>Nombre </th>
+                        <td>modulo de Productos</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>04 / 07 / 2023</td>
+                    </tr>
+                    <tr>
+                        <th>Grado de nesecidad </th>
+                        <td>Alto </td>
+                    </tr>
+                    <tr>
+                        <th>Descripcion</th>
+                        <td>detalles de cada producto para su organizacion</td>
+                    </tr>
+                    <tr>
+                        <th>Entrada </th>
+                        <td>nombre, Codigo, Cantidad</td>
+                    </tr>
+                    <tr>
+                        <th> Fuente</th>
+                        <td>Empleado</td>
+                    </tr>
+                    <tr>
+                        <th>Salida </th>
+                        <td>Producto añadido</td>
+                    </tr>
+                    <tr>
+                        <th>Destino</th>
+                        <td>Inventario (nombre, Codigo, Cantidad)</td>
+                    </tr>
+                    <tr>
+                        <th>Restriccion </th>
+                        <td>olo los empleados/administrador Pueden Ingresar a este requerimiento</td>
+                    </tr>
+                    <tr>
+                        <th>Efecto colateral</th>
+                        <td>NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>Codigo</th>
+                        <td>RF007 </td>
+                    </tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <td>main</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>04 / 07 / 2023</td>
+                    </tr>
+                    <tr>
+                        <th>Grado de nesecidad</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>Descripcion</th>
+                        <td>en este requerimiento se va a organizar la pagina principal a la cual se van a acceder los usuarios despues de iniciar sesion</td>
+                    </tr>
+                    <tr>
+                        <th>Entrada</th>
+                        <td>inicio de sesion</td>
+                    </tr>
+                    <tr>
+                        <th>Fuente </th>
+                        <td>base de datos</td>
+                    </tr>
+                    <tr>
+                        <th>Salida </th>
+                        <td>         </td>
+                    </tr>
+                    <tr>
+                        <th>Destino </th>
+                        <td>main</td>
+                    </tr>
+                    <tr>
+                        <th>Restriccion </th>
+                        <td>tiene que estar logueado para poder acceder a este apartado</td>
+                    </tr>
+                    <tr>
+                        <th>Efecto colateral</th>
+                        <td>manda al cliente a iniciar sesion en su cuenta o a que se registre</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <p style="font-size: 25px">3.2 resquerimirntos no funcionales</p><br>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo</th>
+                        <td>RNF001 </td>
+                    </tr>
+                    <tr>
+                        <th>nombre </th>
+                        <td>Rendimiento del programa</td>
+                    </tr>
+                    <tr>
+                        <th>fecha  </th>
+                        <td>25/072023</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Alto </td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo </th>
+                        <td>RNF002 </td>
+                    </tr>
+                    <tr>
+                        <th>nombre </th>
+                        <td>proteccion de informcion</td>
+                    </tr>
+                    <tr>
+                        <th>fecha</th>
+                        <td>25/072023</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>El programa de garantizar la seguridad de la informcion que los usuarios ingresan</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo</th>
+                        <td>RNF003</td>
+                    </tr>
+                    <tr>
+                        <th>nombre /th>
+                        <td>sostenibilidad del programa/td>
+                    </tr>
+                    <tr>
+                        <th>fecha </th>
+                        <td>25/072023</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo</th>
+                        <td>RNF004</td>
+                    </tr>
+                    <tr>
+                        <th>nombre</th>
+                        <td>Usabilidad</td>
+                    </tr>
+                    <tr>
+                        <th>fecha </th>
+                        <td>25/072023</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Medio </td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>La interfaz del programa debe ser lo mas clara y sencilla posible para que a los usuarios se le facilite su manejo de la mejor manera</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th> codigo</th>
+                        <td>RNF005 </td>
+                    </tr>
+                    <tr>
+                        <th>nombre</th>
+                        <td>Eficacia</td>
+                    </tr>
+                    <tr>
+                        <th>fecha</th>
+                        <td>25/072023</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>El programa debe tener ciertas restricciones dependiendo el rol con el que se este ejecutando el programa</td>
+                    </tr>
+                </table>
+                <br>
+                <p style="font-size: 25px">3.3 requerimientos de interfaz de usuario </p><br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo  </th>
+                        <td>PF006</td>
+                    </tr>
+                    <tr>
+                        <th>nombre</th>
+                        <td>Almacen de registro</td>
+                    </tr>
+                    <tr>
+                        <th>fecha</th>
+                        <td>No registra</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Alto </td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>permitira guardar la informcaion del ususario al regitrarse en el sistema</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo </th>
+                        <td>PF007 </td>
+                    </tr>
+                    <tr>
+                        <th>nombre</th>
+                        <td>ingreso y uso</td>
+                    </tr>
+                    <tr>
+                        <th>fecha</th>
+                        <td>No registra</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesid</th>
+                        <td> Alto </td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>el programa debe terner un acceso y un uso facil para los usuarios</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th>codigo</th>
+                        <td>PF008</td>
+                    </tr>
+                    <tr>
+                        <th> nombre </th>
+                        <td>registro de pedido</td>
+                    </tr>
+                    <tr>
+                        <th>fecha</th>
+                        <td>No registra</td>
+                    </tr>
+                    <tr>
+                        <th>grado necesida</th>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <th>descripcion</th>
+                        <td>Se guardara un registro de cada uno de los pedidos que se hagan</td>
+                    </tr>
+                </table>
+                <br>
+                <p style="font-size: 25px">4. Determinacion de las tecnologias de Hardware,Software y servicios requerido </p><br>
+                <p style="font-size: 25px">4.1 Software </p><br>
+                El software se creara utilizando el lenguaje de programacion (Python), para este trabajo utilizaremos la base de datos SQLite debido a su sencillez, eficacia asi como su rapides y usaremos a visual studio code como herramienta principal de desarrollo. <br><br>
+                <p style="font-size: 25px">4.2 Hosting</p><br>
+                el Hosting que utilizaremos en este trabajo no esta definido pero cabe resaltar que el servicio de hosting que se contrate debe tener la suficiente capacidad de almacenamiento para nuestro programa. <br>
+                <br>
+                <p style="font-size: 25px">4.3 Computador</p><br>
+                para desarrollar el software se debe contar con un computador sin importar el modelo de al menos un prosesador de 2.5 GHz y 6 nucleos, una Ran de 8 GB y un disco solido de 300 GB <br><br>
+                <p style="font-size: 25px">4.4 Escaner Lector Codigo de Barras Automático Soporte USB Base</p><br>
+                se requiere utilizar un escaner lector de barras, este debe tenre una buena calidad y tiene que ser de soporte USB  <br><br>
+                <p style="font-size: 25px">4.5 Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N)</p><br>
+                <p style="font-size: 25px">4.6 Presupuestor</p><br>
+                No Definido
+
+
+
+
             </article>
             </details>
             
