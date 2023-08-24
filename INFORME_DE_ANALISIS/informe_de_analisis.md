@@ -108,9 +108,41 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
 9. **REQUERIMIENTOS FUNCIONALES.** <br>
 
 |CODIGO|NOMBRE|
-|||
+|------|------|
+|RF-001|Registro de Inventario|
+|ALTO|Debe permitir al administrador mostrar los productos y la cantidadcon la que dispone de cada uno de estos|
+|RF-002|inicio de sesión|
+|ALTO|Debe permitir al usuario iniciar sesión con un tipo de usuario ya sea(Administrador, empleado o cliente) |
+|RF-003|Módulo de carrito|
+|MEDIO|permite al usuario agregar productos al carrito y apartar un productosin la necesidad de llevárselo enseguida|
+|RF-004|registro de usuario|
+|ALTO|permite al usuario registrase en el sistema, como cuenta tipo(usuario)|
+|RF-005|modulo método de pago|
+|ALTO|permite al usuario seleccionar la forma de pago del producto|
+|RF-006|módulo de productos |
+|ALTO|detalles de cada producto para su organización|
+|RF-007|Modulo principa|
+|ALTO|En este requerimiento se va a organizar la página principal a la cual van a acceder los usuarios después de iniciar sesión|
+
+
 
 10. **REQUERIMIENTOS NO FUNCIONALES** <br>
+
+|CODIGO|NOMBRE|
+|------|------|
+|RNF-001|Rendimiento del programa |
+|ALTO|El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desempeño posible para dar una buena satisfacción a cada uno de lo usuarios |
+|RNF-002|Protección de información |
+|ALTO|El programa debe garantizar la seguridad de la información que los usuarios ingresan|
+|RNF-003|Sostenibilidad del programa|
+|ALTO|El programa debe tener la capacidad de mantenerse activo y funcionando a su 100% si llega a presentar alguna falla debe ser capaz de recuperarse en el menos tiempo posible sin afectar de ninguna forma a los usuarios |
+|RNF-004|Usabilidad |
+|ALTO|La interfaz del programa debe ser lo más clara y sencilla posible para que a los usuarios se le facilite su manejo de la mejor manera|
+|RNF-005|Eficacia |
+|ALTO|El programa de brindar la mejor eficacia para mayor satisfacción y para una mejor experiencia de parte de los usuarios|
+|RNF-006|Restricciones |
+|ALTO|El programa debe tener ciertas restricciones dependiendo del rol con el que se esté acabó el programa|
+
 11. **MODELO ENTIDAD RELACION** <br>
 12. **DIAGRAMA CASOS DE USO (UML)** <br>
 13. **DIAGRAMA DE ACTIVIDADES (UML)** <br>
