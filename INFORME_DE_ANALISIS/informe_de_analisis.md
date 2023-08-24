@@ -144,6 +144,51 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
 |ALTO|El programa debe tener ciertas restricciones dependiendo del rol con el que se esté acabó el programa|
 
 11. **MODELO ENTIDAD RELACION** <br>
+
+![Alt text](image.png)
+
 12. **DIAGRAMA CASOS DE USO (UML)** <br>
+
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+![Alt text](image-8.png)
+![Alt text](image-9.png)
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+
 13. **DIAGRAMA DE ACTIVIDADES (UML)** <br>
+
+<center>Agregar productos al carrito</center>
+
+![Alt text](image-19.png)
+
+<center>Registrar Usuario</center>
+
+![Alt text](image-18.png)
+
+<center>Iniciar sesión</center>
+
+![Alt text](image-17.png)
+
+<center>Administrar inventario</center>
+
+![Alt text](image-16.png)
+
+<center>Comprar productos</center>
+
+![Alt text](image-15.png)
+
+<center>Gestionar productos</center>
+
+![Alt text](image-14.png)
+
 14. **DIAGRAMA DE CLASES (UML)** <br>
+
+![Alt text](image-20.png)
