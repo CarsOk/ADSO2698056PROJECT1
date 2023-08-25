@@ -1,6 +1,7 @@
 # <center> HOJA DE VIDA </center>
 
-<center></center>
+<center>
+</center>
 
 ## <center>**Juan Sarmiento** <br></center>
 
