@@ -1,7 +1,7 @@
 # <center> HOJA DE VIDA </center>
 
 <center>
-<img src = "imagen-1.png" width ="150" height="150"/>
+<img src = "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/HOJAS_DE_VIDA/HOJAS_DE_VIDA/image-1.png?raw=true" width ="150" height="150"/>
 
 </center>
 
