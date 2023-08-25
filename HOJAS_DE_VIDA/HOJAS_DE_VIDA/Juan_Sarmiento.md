@@ -1,7 +1,8 @@
 # <center> HOJA DE VIDA </center>
 
 <center>
-</center>
+<img src="https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/HOJAS_DE_VIDA/FOTOS/imagen-2.jpg?raw=true" width ="150" height="210"/>
+<center>
 
 ## <center>**Juan Sarmiento** <br></center>
 
