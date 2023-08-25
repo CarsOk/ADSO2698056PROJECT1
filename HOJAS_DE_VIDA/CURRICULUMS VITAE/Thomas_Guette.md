@@ -2,7 +2,7 @@
 
 <center>
 <h2>
-
+<img src = "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/HOJAS_DE_VIDA/FOTOS/imagen-3.jpg?raw=true" width ="150" height="190"/>
 </h2>
 </center>
 

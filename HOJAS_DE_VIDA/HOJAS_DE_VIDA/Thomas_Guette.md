@@ -1,6 +1,8 @@
 # <center> HOJA DE VIDA </center>
 
-<center></center>
+<center>
+<img src = "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/HOJAS_DE_VIDA/FOTOS/imagen-3.jpg?raw=true" width ="150" height="190"/>
+</center>
 
 ## <center>**Thomas Guette** <br></center>
 
