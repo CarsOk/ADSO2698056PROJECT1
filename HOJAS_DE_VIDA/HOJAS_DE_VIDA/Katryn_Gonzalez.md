@@ -17,6 +17,6 @@
 | *Correo*        | *katrinjhoanagonzalezrodriguez@gmail.com* |
 
 ## **ESTUDIOS**
-| *Colegio* | *IED la milagrosa fe y alegria |
-|-----------|--------------------------------|
-| *Sena*    | *Tecnico en sistemas           |
+| *Colegio* | *IED la milagrosa fe y alegria* |
+|-----------|---------------------------------|
+| *Sena*    | *Tecnico en sistemas*           |

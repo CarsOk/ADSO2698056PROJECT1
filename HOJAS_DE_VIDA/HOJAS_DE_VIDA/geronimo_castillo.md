@@ -21,6 +21,6 @@
 
 ## **ESTUDIOS**
 
-| *Colegio* | Institucion educativa tajamar |
-|-----------|-------------------------------|
-| *Sena*    | ADSO                          |
+| *Colegio* | *Institucion educativa tajamar* |
+|-----------|---------------------------------|
+| *Sena*    | *ADSO*                          |
