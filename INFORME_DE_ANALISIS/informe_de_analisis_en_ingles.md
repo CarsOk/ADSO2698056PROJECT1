@@ -62,3 +62,79 @@ of each product registered in the management computer program.<br>
 |Maiyer David Hernández Nieto|maiyerhernandezn@gmail.com|3046722344|
 |Juan David Sarmiento Díaz|jjuandsarmiento04@gmail.com|3042285552|
 
+5. **CURRENT SITUATION.** <br>
+
+The company Famisalud 91 is currently managed by Duvis González who is the owner of the business, who manages the company with the help of her husband who are the only ones who manage the business. <br>
+
+The company does not have any type of software that helps facilitate, improve and give greater efficiency to the management of the company, which leads to a deficit in several areas of it. <br>
+
+One of the areas that may present a deficit may be the inventory area because the input and output products are registered.
+manually in notebooks or other tools and this can lead to the loss of information. In the accounting area there are difficulties
+When it comes to managing the accounts, because it is done manually, this can lead to inefficiency when it comes to keeping the company's accounts. <br>
+
+Due to the difficulties that the pharmacy famisalud la 91 has been presenting, the need arises to design a web store for it that helps to improve some of the problems that the company presents. This software seeks to reduce, change or minimize as much as possible the problems that the company has been presenting, making it more efficient in most of its areas, facilitating work and improving sales. <br>
+
+6. **PRODUCT PERSPECTIVE.** <br>
+
+This software is expected to have an improvement in the area of ​​sales and company administration. It seeks to facilitate administrative work without reducing sales and providing greater efficiency. <br>
+
+What will lead to the increase of clients and greater monetary income to the
+business. <br>
+
+The inventory will make the information of the input and output products better, preventing the loss of information. <br>
+
+7. **PRODUCT FUNCTIONS.** <br>
+
+ Inventory Record <br>
+ Login<br>
+ cart module <br>
+ User register <br>
+ payment method module <br>
+ products module<br>
+ main module <br>
+
+8. **USER FEATURES.** <br>
+
+Users will be customers, employees and administrators. <br>
+
+Customers will have access to view and purchase the products that are available. <br>
+
+Employees have access to the record of the products that enter and leave the pharmacy and to the section of the orders and sales made in person. <br>
+
+The administrator will have access to sales and product registration. <br>
+
+9. **FUNCTIONAL REQUIREMENTS.** <br>
+
+|CODE  |Name  |
+|------|------|
+|RF-001|Inventory Record|
+|HIGH|You must allow the administrator to show the products and the quantity with which you have each of these|
+|RF-002|Login|
+|HIGH|You must allow the user to log in with a type of user either (Administrator, employee or client) |
+|RF-003|cart module|
+|HALF|allows the user to add products to the cart and save a product without the need to take it right away|
+|RF-004|User register|
+|HIGH|allows the user to register in the system, as an account type (user)|
+|RF-005|payment method module|
+|HIGH|allows the user to select the payment method for the product|
+|RF-006|products module |
+|HIGH|details of each product for your organization|
+|RF-007|main module|
+|HIGH|In this requirement, the main page that users will access after logging in will be organized.|
+
+10. **NON-FUNCTIONAL REQUIREMENTS** <br>
+
+|CODE  |Name  |
+|------|------|
+|RNF-001|program performance |
+|HIGH|The program must have the best performance, the best loading speed and the best possible performance to give good satisfaction to each of the users |
+|RNF-002|Information protection |
+|HIGH|The program must guarantee the security of the information that users enter|
+|RNF-003|Program sustainability|
+|HIGH|The program must have the ability to remain active and running at 100% if it does present a failure, it must be able to recover in the shortest possible time without affecting users in any way. |
+|RNF-004|usability |
+|HIGH|The interface of the program must be as clear and simple as possible so that users can use it in the best possible way.|
+|RNF-005|Effectiveness |
+|HIGH|The program to provide the best efficiency for greater satisfaction and for a better experience on the part of users|
+|RNF-006|restrictions |
+|HIGH|The program must have certain restrictions depending on the role with which the program is finished|
