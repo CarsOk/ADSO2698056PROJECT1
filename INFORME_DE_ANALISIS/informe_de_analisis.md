@@ -1,4 +1,4 @@
-tab
+
 #  <h1><center>**SENA**</center></h1>
 
 ## <h2>SERVICIO NACIONAL DE APRENDISAJE </h2>
@@ -51,8 +51,7 @@ de cada producto registrados en el programa informático de gestión. <br>
 
 **Requerimientos funcionales:** descripción de las capacidades o funciones que el sistema será capaz de realizar. <br>
 
-**Requerimientos no funcionales:** restricciones o características que delimitan el sistema, como, por ejemplo, rendimiento, interfaces de usuario,
-confiabilidad, seguridad, portabilidad, normas, entre otros. <br>
+**Requerimientos no funcionales:** restricciones o características que delimitan el sistema, como, por ejemplo, rendimiento, interfaces de usuario, confiabilidad, seguridad, portabilidad, normas, entre otros. <br>
 
 4. **PERSONAL.** <br>
 
