@@ -10,11 +10,15 @@
     margin-bottom: 10px; 
     width: auto;
 } 
-#tilt {
+#texto{
+    padding-bottom: 30px;
+}
+
+.tilt {
     font-size: 30px;
     color: #F1F3CE;
 }
-#tilt2 {
+.tilt2 {
     font-size: 25px;
     color: #F1F3CE ;
 }
@@ -41,7 +45,8 @@
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
 }
-table {
+.Tabla {
+    border-collapse: collapse;
     justify-content: center;
     font-size: 20px;
 }
@@ -56,6 +61,8 @@ table {
 .Tabla {
     border: 3px solid #F1F3CE;
 }
-#pa {
+.pa {
+    padding-left: 5px;
+    padding-right: 5px;
     border: solid 1px #F1F3CE; 
 }
