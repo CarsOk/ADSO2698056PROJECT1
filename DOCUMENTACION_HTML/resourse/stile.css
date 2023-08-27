@@ -10,9 +10,6 @@
     margin-bottom: 10px; 
     width: auto;
 } 
-#texto{
-    padding-bottom: 30px;
-}
 
 .tilt {
     color: #F1F3CE;
@@ -72,17 +69,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-#Logo {  
-    border: solid 1px red;
-    height: 150px;
-    width: auto;
-}
-#img{
-    margin: auto;
-    height: 100px; 
-    width: 100px;
-}
 .text2 {
     margin:auto;
     text-align: center;
+    padding-bottom: 30px;
+}
+.sep {
+    margin: 30px;
 }
