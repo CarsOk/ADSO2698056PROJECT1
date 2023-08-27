@@ -15,7 +15,7 @@ Maiyer David Hernández Nietoa<br>
 **<center>HISTORIAL DE REVISIONES</center>**
 |fecha | versiòn | descripciòn/cambio | autor|
 |------|---------|--------------------|------|
-|07/07/2023 <br> 25/07/2023|1.0 <br> 1.1| Primer documento. <br> actualizaciòn de documento.| Juan David Sarmiento Dìaz. <br> Katryn Johana González Rodríguez. <br> Geronimo jose castillo martinez. <br> Thomas David Güette Marriaga. <br> Maiyer David Hernández Nietoa.
+|07/07/2023 <br> 25/07/2023|1.0 <br> 1.1| Primer documento. <br> actualizaciòn de documento.| Juan David Sarmiento Dìaz. <br> Katryn Johana González Rodríguez. <br> Geronimo jose castillo martinez. <br> Thomas David Güette Marriaga. <br> Maiyer David Hernández Nieto.
 
 1. **PROPOSITO.** <br>
 
@@ -51,8 +51,7 @@ de cada producto registrados en el programa informático de gestión. <br>
 
 **Requerimientos funcionales:** descripción de las capacidades o funciones que el sistema será capaz de realizar. <br>
 
-**Requerimientos no funcionales:** restricciones o características que delimitan el sistema, como, por ejemplo, rendimiento, interfaces de usuario,
-confiabilidad, seguridad, portabilidad, normas, entre otros. <br>
+**Requerimientos no funcionales:** restricciones o características que delimitan el sistema, como, por ejemplo, rendimiento, interfaces de usuario, confiabilidad, seguridad, portabilidad, normas, entre otros. <br>
 
 4. **PERSONAL.** <br>
 
@@ -70,9 +69,9 @@ La empresa Famisalud 91 en la actualidad esta administrada por Duvis González q
 
 La empresa no cuenta con ningún tipo de software que ayude a facilitar, mejora y dar mayor eficacia al manejo de la empresa, lo que lleva a dar déficit en varias áreas de esta. <br>
 
-Unas de las áreas que puede presentar déficit puede ser el área de inventario debido a que los productos de entrada y salida son registrados
+Unas de las áreas que puede presentar déficit puede ser el área de inventario debido a que los productos de entrada y salida son registrados.<br>
 manualmente en libretas u otras herramientas y esto puede llevar a la perdida de información, En el área de contabilidad se presentan dificultades
-a la hora del manejo de las cuentas debido a que se hace manualmente esto puede llevar a ineficacia a la hora de llevar la contabilidad de la empresa. <br>
+a la hora del manejo de las cuentas debido a que se hace manualmente esto puede llevar a ineficacia a la hora de llevar la contabilidad de la empresa. 
 
 Debido a las dificultades que viene presentando la farmacia famisalud la 91 surge la necesidad de diseñar una tienda web para esta que ayude a mejorar algunos de los problemas que la empresa presenta. Con este software se busca disminuir, cambiar o minimizar lo más posible las problemáticas que vienen presentando la empresa, haciendo que esta tenga una mayor eficacia en la mayor parte de sus áreas, facilitando el trabajo y mejorando las ventas. <br>
 
