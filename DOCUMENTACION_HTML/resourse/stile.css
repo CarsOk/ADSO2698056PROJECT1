@@ -61,10 +61,7 @@
     padding-left: 5px;
     padding-right: 5px;
 }
-#tblv{
-    height: 60px;
-    width: 90px;
-}
+
 #centertable{
     margin-left: auto;
     margin-right: auto;
@@ -72,8 +69,16 @@
 .text2 {
     margin:auto;
     text-align: center;
-    padding-bottom: 30px;
 }
 .sep {
     margin: 30px;
+    padding-bottom: 20px;
+}
+a:link {
+    background-color: #1E656D;
+    color: #F1F3CE;
+}
+a:visited {
+    background-color: #1E656D;
+    color: #F1F3CE;
 }
