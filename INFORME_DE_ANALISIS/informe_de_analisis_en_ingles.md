@@ -138,3 +138,53 @@ The administrator will have access to sales and product registration. <br>
 |HIGH|The program to provide the best efficiency for greater satisfaction and for a better experience on the part of users|
 |RNF-006|restrictions |
 |HIGH|The program must have certain restrictions depending on the role with which the program is finished|
+
+11. **ENTITY RELATIONSHIP MODEL** <br>
+
+![Alt text](image.png)
+
+12. **DIAGRAMA CASOS DE USO (UML)** <br>
+
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](Imagen_01.png)
+![Alt text](image-4.png)
+![Alt text](Imagen_02.png)
+![Alt text](image-6.png)
+![Alt text](Imagen_03.png)
+![Alt text](image-8.png)
+![Alt text](Imagen__04.png)
+![Alt text](image-10.png)
+![Alt text](Imagen_05.png)
+![Alt text](image-12.png)
+![Alt text](Imagen_06.png)
+
+13. **ACTIVITIES DIAGRAM (UML)** <br>
+
+<center>Add products to cart</center>
+
+![Alt text](image-19.png)
+
+<center>register user</center>
+
+![Alt text](image-18.png)
+
+<center>Log in</center>
+
+![Alt text](image-17.png)
+
+<center>Manage inventory</center>
+
+![Alt text](image-16.png)
+
+<center>Buy products</center>
+
+![Alt text](image-15.png)
+
+<center>manage products</center>
+
+![Alt text](image-14.png)
+
+14. **CLASS DIAGRAM (UML)** <br>
+
+![Alt text](image-20.png)
