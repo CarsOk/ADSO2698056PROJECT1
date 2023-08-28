@@ -153,7 +153,7 @@ The administrator will have access to sales and product registration. <br>
 ![Alt text](image-6.png)
 ![Alt text](Imagen_03.png)
 ![Alt text](image-8.png)
-![Alt text](Imagen_04.png)
+![Alt text](Imagen__04.png)
 ![Alt text](image-10.png)
 ![Alt text](Imagen_05.png)
 ![Alt text](image-12.png)
