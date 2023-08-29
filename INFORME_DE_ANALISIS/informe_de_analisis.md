@@ -144,12 +144,14 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
 
 11. **MODELO ENTIDAD RELACION** <br>
 
-![Alt text](image.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image.png?raw=true" width ="800" height="550"/>
 
 12. **DIAGRAMA CASOS DE USO (UML)** <br>
 
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-1.png?raw=true" width ="800" height="550"/>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-2.png?raw=true" width ="800" height="550"/>
+
 
 <table border ="5px">
     <tr style="color:BLACK">
@@ -252,7 +254,7 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
     </tr>
 </table>
 
-![Alt text](image-4.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-4.png?raw=true" width ="800" height="550"/>
 
 <table border ="5px">
     <tr style="color:BLACK">
@@ -363,7 +365,7 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
     </tr>
 </table>
 
-![Alt text](image-6.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-6.png?raw=true" width ="800" height="550"/>
 
 <table border ="5px">
     <tr style="color:BLACK">
@@ -474,7 +476,7 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
     </tr>
 </table>
 
-![Alt text](image-8.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-8.png?raw=true" width ="800" height="550"/>
 
 <table border ="5px">
     <tr style="color:BLACK">
@@ -601,7 +603,7 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
     </tr>
 </table>
 
-![Alt text](image-10.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-10.png?raw=true" width ="800" height="550"/>
 
 <table border ="5px">
     <tr style="color:BLACK">
@@ -704,7 +706,7 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
     </tr>
 </table>
 
-![Alt text](image-12.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-12.png?raw=true" width ="800" height="550"/>
 
 <table border ="5px">
     <tr style="color:BLACK">
@@ -811,28 +813,28 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
 
 <center>Agregar productos al carrito</center>
 
-![Alt text](image-19.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-19.png?raw=true" width ="600" height="350"/>
 
 <center>Registrar Usuario</center>
 
-![Alt text](image-18.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-18.png?raw=true" width ="600" height="350"/>
 
 <center>Iniciar sesión</center>
 
-![Alt text](image-17.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-17.png?raw=true" width ="600" height="350"/>
 
 <center>Administrar inventario</center>
 
-![Alt text](image-16.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-16.png?raw=true" width ="600" height="450"/>
 
 <center>Comprar productos</center>
 
-![Alt text](image-15.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-15.png?raw=true" width ="500" height="450"/>
 
 <center>Gestionar productos</center>
 
-![Alt text](image-14.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-14.png?raw=true" width ="600" height="350"/>
 
 14. **DIAGRAMA DE CLASES (UML)** <br>
 
-![Alt text](image-20.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-20.png?raw=true" width ="800" height="550"/>
