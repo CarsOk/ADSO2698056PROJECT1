@@ -150,17 +150,662 @@ El administrador tendrá acceso a las ventas y al registro de los productos. <br
 
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
-![Alt text](image-3.png)
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASO DE USO
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>INICIAR SESION</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPCION</center>
+        </td>
+        <td colspan="2">
+            El comportamiento del sistema deberá describir el paso a paso cuando el usuario vaya a iniciar sección.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDICION</center>
+        </td>
+        <td colspan="2">
+            El usuario debe estar registrado para poder iniciar sección
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>SECUENCIA NORMAL</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Ingresa al main
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            el sistema carga por predeterminado el main-cliente
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            Ingresa al icono iniciar sección
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            Ingresa el correo y la contraseña 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDICION</center>
+        </td>
+        <td colspan="2">
+            No se valida el inicio de sección
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPCIONES</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Si no se encuentra registrado no podrá iniciar sesión 
+        </td>
+    </tr>
+</table>
+
 ![Alt text](image-4.png)
-![Alt text](image-5.png)
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASO DE USO
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>REGISTRO USUARIO</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b><center>DESCRIPCION</center>
+        </td>
+        <td colspan="2">
+            El comportamiento del sistema deberá describir el paso a paso cuando el usuario vaya a registrarse.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDICION</center>
+        </td>
+        <td colspan="2">
+            El usuario debe contar con los datos necesarios para registrarse
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>SECUENCIA NORMAL</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Ingresa al main
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            el sistema carga por predeterminado el main-cliente
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            Ingresa al icono registrarse
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            Ingresa la información solicitada por el sistema 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDICION</center>
+        </td>
+        <td colspan="2">
+            No se valida el registro
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "4">
+            <b><center>EXCEPCIONES</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            el sistema no permitirá registrarse si el correo utilizado ya se encuentra en otra cuenta existente
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            el sistema no permitirá registrarse si alguna de la información suministrada por el usuario es incorrecta o no valida
+        </td>
+    </tr>
+</table>
+
 ![Alt text](image-6.png)
-![Alt text](image-7.png)
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASO DE USO
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>AÑADIR PRODUCTOS AL CARRITO</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPCION</center>
+        </td>
+        <td colspan="2">
+            El sistema deberá describir el paso a paso cuando el cliente vaya a agregar un o más productos al carrito.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDICION</center>
+        </td>
+        <td colspan="2">
+            El Cliente debe tener un inicio de sección activo
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="7">
+            <B><center>SECUENCIA NORMAL</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Ingresa al main
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            el sistema carga por predeterminado el main-cliente
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            Selecciona producto que va a agregar al carrito
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            Valida que el cliente este logueado
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>5
+        </td>
+        <td>
+            Agrega producto al carrito
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDICION</center>
+        </td>
+        <td colspan="2">
+            El cliente no tiene cuenta
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPCIONES</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            el sistema no permitirá añadir productos al carro si el cliente no está logueado.
+        </td>
+    </tr>
+</table>
+
 ![Alt text](image-8.png)
-![Alt text](image-9.png)
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASO DE USO
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>COMPRAR PRODUCTOS</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b><center>DESCRIPCION</center>
+        </td>
+        <td colspan="2">
+            El sistema deberá describir el paso a paso cuando el usuario vaya a realizar una compra de uno o más productos
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDICION</center>
+        </td>
+        <td colspan="2">
+            El Cliente debe tener un inicio de sección activo
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="8">
+            <B><center>SECUENCIA NORMAL</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            añadir 1 o más artículos
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            solicitar la ubicación a la cual se llevaran los productos
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            solicitar el pago de los productos
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            verificar el pago realizado por el Cliente
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>5
+        </td>
+        <td>
+            Al iniciar sección como Empleado
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>6
+        </td>
+        <td>
+            confirmar/denegar envió al cliente
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDICION</center>
+        </td>
+        <td colspan="2">
+            EL Cliente realiza el pago de los productos
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "4">
+            <b><center>EXCEPCIONES</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            El Sistema realizara la devolución del dinero siempre y cuando se realice una denegación del envío del pedido
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            No se realiza el pago correctamente (se notifica de que no se pudo realizar el pago y lo devuelve al main)
+        </td>
+    </tr>
+</table>
+
 ![Alt text](image-10.png)
-![Alt text](image-11.png)
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASO DE USO
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>GESTIONAR PRODUCTOS</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPCION</center>
+        </td>
+        <td colspan="2">
+            El sistema deberá describir el paso a paso cuando empleado vaya a gestionar los productos de la tienda.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDICION</center>
+        </td>
+        <td colspan="2">
+            El empleado debe haber iniciado sección con una cuenta que tenga rol de empleado
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>SECUENCIA NORMAL</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            El sistema valida que la cuenta tenga rol empleado
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            El sistema despliega el Main-empleado
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            El sistema despliega icono de gestionar productos
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            El empleado ingresa a gestionar los productos 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDICION</center>
+        </td>
+        <td colspan="2">
+            No cuenta con una cuenta de rol empleado
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPCIONES</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Sin el rol valido el sistema no va a desplegar el Main-empleado
+        </td>
+    </tr>
+</table>
+
 ![Alt text](image-12.png)
-![Alt text](image-13.png)
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASO DE USO
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>ADMINISTRAR INVENTARIO</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPCION</center>
+        </td>
+        <td colspan="2">
+            El sistema deberá describir el paso a paso cuando el administrador vaya a administrar el inventario.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDICION</center>
+        </td>
+        <td colspan="2">
+            El administrador debe haber iniciado sección con una cuenta que tenga rol de administrador
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>SECUENCIA NORMAL</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            El sistema valida que la cuenta tenga rol administrador
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            El sistema despliega el Main-administrador
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            El sistema despliega icono de administrar inventario
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            El administrador ingresa a administrar inventario
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDICION</center>
+        </td>
+        <td colspan="2">
+            No cuenta con una cuenta de rol administrador
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPCIONES</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASO
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACCION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Si no cuenta con el rol permitido no podrá administrar el inventario 
+        </td>
+    </tr>
+</table>
 
 13. **DIAGRAMA DE ACTIVIDADES (UML)** <br>
 
