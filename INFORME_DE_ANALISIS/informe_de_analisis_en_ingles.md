@@ -141,50 +141,697 @@ The administrator will have access to sales and product registration. <br>
 
 11. **ENTITY RELATIONSHIP MODEL** <br>
 
-![Alt text](image.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image.png?raw=true" width ="800" height="550"/>
 
 12. **DIAGRAMA CASOS DE USO (UML)** <br>
 
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](Imagen_01.png)
-![Alt text](image-4.png)
-![Alt text](Imagen_02.png)
-![Alt text](image-6.png)
-![Alt text](Imagen_03.png)
-![Alt text](image-8.png)
-![Alt text](Imagen__04.png)
-![Alt text](image-10.png)
-![Alt text](Imagen_05.png)
-![Alt text](image-12.png)
-![Alt text](Imagen_06.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-1.png?raw=true" width ="800" height="550"/>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-2.png?raw=true" width ="800" height="550"/>
+
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASE OF USE
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>LOG IN</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPTION</center>
+        </td>
+        <td colspan="2">
+            The behavior of the system must describe the step by step when the user goes to start the section.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDITION</center>
+        </td>
+        <td colspan="2">
+            The user must be registered to be able to start the section
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>NORMAL SEQUENCE</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Enter the main 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            The system loads the main-client by default 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            Enter the icon start section 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            Enter the email and password 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDITION</center>
+        </td>
+        <td colspan="2">
+            The beginning of the section is not validated 
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPTIONS</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            If you are not registered you will not be able to log in 
+        </td>
+    </tr>
+</table>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-4.png?raw=true" width ="800" height="550"/>
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASE OF USE
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>USER REGISTRATION</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b><center>DESCRIPTION</center>
+        </td>
+        <td colspan="2">
+            The behavior of the system should describe the step by step by step when the user goes to register.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDITION</center>
+        </td>
+        <td colspan="2">
+            The user must have the necessary data to register
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>NORMAL SEQUENCE</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Enter the main
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            The system loads the main-client by default
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            Enter the register icon
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            Enter the information requested the system
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDITION</center>
+        </td>
+        <td colspan="2">
+            Registration is not validated 
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "4">
+            <b><center>EXCEPTIONS</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            The system will not allow registration if the email used is already in another axisting account
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            The system will not allow registration if any of the information provided by the user is incorrect or invalid 
+        </td>
+    </tr>
+</table>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-6.png?raw=true" width ="800" height="550"/>
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASE OF USE
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>ADD PRODUCTS TO CART</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPTION</center>
+        </td>
+        <td colspan="2">
+            The system must decribe the step by step when the customer is going to add one or more products to the cart.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDITION</center>
+        </td>
+        <td colspan="2">
+            Precondition client must have an active section start
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="7">
+            <B><center>NORMAL SEQUENCE</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Enter the main
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            By default in main-client
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            select product to add to cart
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            Validate that the client is logged in
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>5
+        </td>
+        <td>
+            Agdd product to cart
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDITION</center>
+        </td>
+        <td colspan="2">
+            The client does not have an account
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPTIONS</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            The system will not allow adding products to the cart if the customer is not logged in.
+        </td>
+    </tr>
+</table>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-8.png?raw=true" width ="800" height="550"/>
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASE OF USE 
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>BUY PRODUCTS</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b><center>DESCRIPTION</center>
+        </td>
+        <td colspan="2">
+            Description the system must describe the step when the user is going to make a purchase of more products
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDITION</center>
+        </td>
+        <td colspan="2">
+            Client must have an active section header
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="8">
+            <B><center>NORMAL SEQUENCE</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Add 1 or more items 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            request the location to which the items will be taken products
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            Request payment for products 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            verify the payment made by the customer
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>5
+        </td>
+        <td>
+            When starting section as employee
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>6
+        </td>
+        <td>
+            confirm/deny sent to client 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDITION</center>
+        </td>
+        <td colspan="2">
+            The customer pays for the products
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "4">
+            <b><center>EXCEPTIONS</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            The system will refund the money as long as a refusal of the shipment of the order
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            The payment is not made correctly (it is notified that the payment  could not be made and it is return to main)
+        </td>
+    </tr>
+</table>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-10.png?raw=true" width ="800" height="550"/>
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASE OF USE 
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>MANAGE PRODUCTS</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPTION</center>
+        </td>
+        <td colspan="2">
+            The system shall describe the step by step when employed go to manage the products of the store
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDITION</center>
+        </td>
+        <td colspan="2">
+            The employee must have started a section with an account that have employee role
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>NORMAL SEQUENCE</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            The system validates that the account has an employee role
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            The system displays the main-employee
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            The system displays the icon to manage products 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            The employee enters to manage the products 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDITION</center>
+        </td>
+        <td colspan="2">
+            Does not have an employee role account
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPTIONS</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            Without the valid role the system will not desploy the main-employee
+        </td>
+    </tr>
+</table>
+
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-12.png?raw=true" width ="800" height="550"/>
+
+<table border ="5px">
+    <tr style="color:BLACK">
+        <th style="background-color: yellow">
+            CASE OF USE 
+        </th>
+        <th style="background-color: yellow" colspan="2">
+            <center>MANAGE INVENTORY</center>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b> <center>DESCRIPTION</center>
+        </td>
+        <td colspan="2">
+            The system shall describe the by step when the admin go to manage inventory
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <B><center>PRECONDITION</center>
+        </td>
+        <td colspan="2">
+            The administrator must have started a section with an account that have administrator role
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+            <B><center>NORMAL SEQUENCE</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            The system validates that the account has a role administrator
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>2
+        </td>
+        <td>
+            The system displays the main-administrator
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>3
+        </td>
+        <td>
+            The system displays the manage inventory icon 
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>4
+        </td>
+        <td>
+            The administrator enters manage inventory
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><center>POSTCONDITION</center>
+        </td>
+        <td colspan="2">
+            Does not have an administrator role account
+        </td>
+    </tr>
+    <tr>
+        <td rowspan = "3">
+            <b><center>EXCEPTIONS</center>
+        </td>
+    </tr>
+    <tr style="color:BLACK">
+        <td style="background-color: yellow">
+            <B>PASSED
+        </td>
+        <td style="background-color: yellow">
+            <B><center>ACTION</center>
+        </td>
+    </tr>
+    <tr>
+        <td style="color:yellow">
+            <b>1
+        </td>
+        <td>
+            If you do not have the allowed role you will not be able to manager inventory
+        </td>
+    </tr>
+</table>
 
 13. **ACTIVITIES DIAGRAM (UML)** <br>
 
 <center>Add products to cart</center>
 
-![Alt text](image-19.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-19.png?raw=true" width ="600" height="350"/>
 
 <center>register user</center>
 
-![Alt text](image-18.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-18.png?raw=true" width ="600" height="350"/>
 
 <center>Log in</center>
 
-![Alt text](image-17.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-17.png?raw=true" width ="600" height="350"/>
 
 <center>Manage inventory</center>
 
-![Alt text](image-16.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-16.png?raw=true" width ="600" height="450"/>
 
 <center>Buy products</center>
 
-![Alt text](image-15.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-15.png?raw=true" width ="500" height="450"/>
 
 <center>manage products</center>
 
-![Alt text](image-14.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-14.png?raw=true" width ="600" height="350"/>
 
 14. **CLASS DIAGRAM (UML)** <br>
 
-![Alt text](image-20.png)
+<img src= "https://github.com/CarsOk/ADSO2698056PROJECT1/blob/main/INFORME_DE_ANALISIS/IMAGENES/image-20.png?raw=true" width ="800" height="550"/>
