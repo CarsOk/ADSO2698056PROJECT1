@@ -1183,6 +1183,708 @@
                     </p>
             </article>
         </details>
+
+        <details>
+            <summary id="Uno">SRS IN ENGLISH</summary><br>
+            <article class="sep">
+                <p class="tilt">1.	Introduction</p><br>
+                <br>
+                ANALYSIS, DESIGN, DEVELOPMENT AND IMPLEMENTATION OF A WEB APPLICATION IN THE PHARMACY(Famisalud La 91) FOR THE ORGANIZATION AND VIRTUAL SALE OF A PHARMACY.<br>
+                <br>
+                <p class="tilt">1.1	Purpose</p><br>
+                <br>
+                The purpose of this is to describe what was agreed with the client and create step by step the software that will be used to carry out the inventory and sale of the products that the pharmacy offers, by systematizing these processes we will have a better performance in the inventory area and sale.
+                <br><br>
+                <p class="tilt">1.2	scope:</p>
+                <br><br>
+                We will make a virtual store with inventory, which will allow us to control the entry and exit of the products that are registered in the pharmacy (famisalud la 91), the sale of these will be carried out, all this in order to improve the sales and organization, in this project we will not perform the installation or maintenance of the software.  
+                <br><br>
+                <p class="tilt">1.3	Define, acronym and abbreviation</p>
+                <br><br>
+                <p class="tilt2">SENA:</p> National Learning Service.
+                <br><br>
+                <p class="tilt2">Sofia:</p> Optimized System for the Comprehensive Training of Active Learning.
+                <br><br>
+                <p class="tilt2">Database:</p> A database is responsible not only for storing data, but also for connecting them together in a logical unit.
+                <br><br>
+                <p class="tilt2">Software:</p> These are the computer programs that make it possible to execute specific tasks within a computer. For example, operating systems, applications, web browsers, games or programs.
+                <br><br>
+                <p class="tilt2">inventory:</p> The inventory is the manual verification that the physical and real quantities in stock of each product in our pharmacy coincide with the quantities of each product registered in the management computer program.
+                <br><br>
+                <p class="tilt2">Firewall:</p> It is a computer network security system that restricts Internet traffic incoming, outgoing, or within a private network.
+                <br><br>
+                <p class="tilt2">Functional requirements:</p> They describe the capabilities or functions that the system will be able to perform.
+                <br><br>
+                <p class="tilt2">non-functional requirements:</p> restrictions or characteristics that define the system, such as performance, user interfaces, reliability, security, portability, standards, among others.
+                <br><br>
+                <p class="tilt">1.4	referencia</p>
+                <br><br>
+                <a href="https://edu.gcfglobal.org/es/informatica-basica/que-es-hardware-y-software/1/">https://edu.gcfglobal.org/es/informatica-basica/que-es-hardware-y-software/1/</a>
+                <br><br>
+                <a href="https://www.arimetrics.com/glosario-digital/base-de-datos">https://www.arimetrics.com/glosario-digital/base-de-datos</a>
+                <br> <br>
+                <a href="https://www.mcafee.com/es-co/antivirus/firewall.html">https://www.mcafee.com/es-co/antivirus/firewall.html</a>
+                <br><br>
+                <a href="http://www.pmoinformatica.com/2018/05/que-es-requerimiento-funcional.html">http://www.pmoinformatica.com/2018/05/que-es-requerimiento-funcional.html</a>
+                <br><br>
+                <a href="https://visuresolutions.com/es/blog/non-functional-requirements/">https://visuresolutions.com/es/blog/non-functional-requirements/</a>
+                <br><br>
+                <p class="tilt">1.5	overall appreciation</p>
+                <br><br>
+                This document presents a short introduction .<br>
+                Where in the next part you can see the perspective of the project, with its functions, specifications and characteristics of the project itself and its future users. <br>
+                Point 3 presents a detailed specification of the requirements that are necessary for the analysis, design, development and implementation of the system.<br>
+                <br>
+                <br>
+                <p class="tilt">2.	General description</p> 
+                <br><br>
+                <p class="tilt">2.1	Product Insights</p>
+                <br><br>
+                -  With this software, an improvement is expected in the way part of the sale and part of the inventory are handled in the famisalud la 91 pharmacy.<br>
+                - Said inventory will be the best way to keep the information of the sales and the registration of the products. <br>
+                <p class="tilt">2.2	Product Features</p><br>
+                - Register client.<br>
+                - Register product.<br>
+                - Register purchase details.<br>
+                - Register income products.<br>
+                - Register output products.<br>
+                - Register order details.<br>
+                - Visualization of available products.<br>
+                - Generate report of scarce products.<br>
+                <br>
+                <p class="tilt">2.3	User Features</p><br>
+                <br>
+                - The users will be the clients, the employees and the administrators.<br>
+                <br>
+                - Customers are given access to view and purchase the products that are available.<br>
+                - Employees will have access to the record of products that enter and leave the pharmacy and to the section of orders and sales made in physical.<br>
+                - The administrator will have access to sales and product registration.<br>
+                <br>
+                <p class="tilt">2.4	restrictions</p><br>
+                <br>
+                - For this system, the possible restrictions are the time it will take to develop it, resources where the system will be implemented, the level of programming language for developers.<br>
+                <br>
+                <p class="tilt">2.5	Attention and Dependencies</p><br>
+                <br>
+                - The system will keep the record of sales, inventory, record of orders and record of customers. <br>
+                <br>
+                <p class="tilt">3.	Specific requirements </p><br>
+                <br>
+                <p class="tilt">3.1	Functional Requirements</p><br>
+                <br>
+                <table class="Tabla">
+                    <tbody>
+                        <tr>
+                            <th class="pa">Code  </th>
+                            <td class="pa"> RF001   </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Name </th>
+                            <td class="pa"> Inventory Record    </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Date </th>
+                            <td class="pa"> 04/ 27 / 2023</td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Degree of need </th>
+                            <td class="pa"> High   </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Description </th>
+                            <td class="pa"> You must allow the administrator to show the products and the quantity with which you have each of these.</td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Entrance</th>
+                            <td class="pa"> Gmail, Password. </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Fountain </th>
+                            <td class="pa"> Administrator.</td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Exit  </th>
+                            <td class="pa"> Inventory header.  </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Destination </th>
+                            <td class="pa"> Record with the available quantity of each product. </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Restriction </th>
+                            <td class="pa"> Only administrative staff with a valid username can enter and view said information. </td>
+                        </tr>
+                        <tr>
+                            <th class="pa"> Side effect </th>
+                            <td class="pa"> This gives the administrator better management of all his products, giving him greater efficiency when it comes to keeping track of all the products that enter and leave the company and the profits they leave. </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Process</th>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Enter user. </td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Verify that the username is correct. </td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- If the username is incorrect, request it again.  </td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- If the username is correct, enter. </td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Shows a record of all products with the available quantity of each of these.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">RF002 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name  </th>
+                        <td class="pa">Login</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">04 / 07 / 2023 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need</th>
+                        <td class="pa">High</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">It must allow the user to log in with a type of user either (Administrator, employee or client).</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Entrance </th>
+                        <td class="pa">User type, identification and password.</td>
+                    </tr><tr>
+                        <th class="pa">Fountain </th>
+                        <td class="pa">User</td>
+                    </tr>
+                    <tr>
+                        <th class="pa"></th>
+                        <td class="pa"></td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Exit</th>
+                        <td class="pa">Message to the email validating that the session was started correctly.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Destination</th>
+                        <td class="pa">Homepage</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Restriction</th>
+                        <td class="pa">Two or more users cannot use the same ID.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Side effect</th>
+                        <td class="pa">Main page would not be displayed.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Process </th>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Register in the system.</td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Skip the registration if you are already in the system.</td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Start section.</td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Verify that the section starts correctly. </td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- View the main page.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code </th>
+                        <td class="pa">RF003 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name </th>
+                        <td class="pa">cart module</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">04 / 07 / 202</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">degree of need</th>
+                        <td class="pa">half.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description </th>
+                        <td class="pa">allows the user to add products to the cart and remove a product without the need to take it immediately.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Entrance</th>
+                        <td class="pa">Button (add to cart).</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Fountain</th>
+                        <td class="pa">Database.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Exit</th>
+                        <td class="pa">Product added to cart message.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Destination</th>
+                        <td class="pa">Cart with the information of the added products (Product name, description, photo, <br> quantity, price, product code, date).</td>
+                    </tr>
+                    <tr>
+                        <th >Restriction </th>
+                        <td class="pa">You must be registered to be able to add products to the cart.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Side effect</th>
+                        <td class="pa">Without products in the cart there will be no purchase.</td>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Process </th>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Start section.</td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- It is verified that the beginning of the section is correct.</td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Choose the product to buy.</td>
+                    </tr>
+                    <tr>
+                        <td class="pa">- Add product to cart  </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td class="pa">- It makes a section of the product to buy determining the date that it will come for it. (Optional )</td>
+                </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">RF004</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">User register.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date </th>
+                        <td class="pa">Does not record.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">Allows the user to register in the system, as a type account (user).</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Entrance</th>
+                        <td class="pa">Name, surname, identification, address, email, password.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Fountain</th>
+                        <td class="pa">user </td>
+                    </tr>
+                    <tr>
+                        <th class="pa"> Exit</th>
+                        <td class="pa">Successful registration message.  </td>
+                    </tr>
+                    <tr>
+                        <th class="pa"> Destination </th>
+                        <td class="pa">Payment method module.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Restriction</th>
+                        <td class="pa">There should not be two accounts with the same email.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa"> Side effect</th>
+                        <td class="pa">No type of purchase could be carried out.</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code </th>
+                        <td class="pa">RF005</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name </th>
+                        <td class="pa">Payment module method.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">04 / 07 / 2023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">Allows the user to select the payment method for the product.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Entrance</th>
+                        <td class="pa">Cash and card.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Fountain </th>
+                        <td class="pa">user.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Exit</th>
+                        <td class="pa">Message via gmail.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Destination</th>
+                        <td class="pa">Invoice module.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Restriction</th>
+                        <td class="pa">It is mandatory to select a payment method.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Side effect</th>
+                        <td class="pa">It would not be possible to choose the form of payment for the product.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">RF006</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name </th>
+                        <td class="pa">Products module.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">04 / 07 / 2023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need </th>
+                        <td class="pa">High. </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">Details of each product for your organization.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Entrance </th>
+                        <td class="pa">Name, Code, Quantity.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa"> Fountain</th>
+                        <td class="pa">Employee.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Exit </th>
+                        <td class="pa">Product added.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Destination</th>
+                        <td class="pa">Inventory (name, Code, Quantity).</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Restriction </th>
+                        <td class="pa">Only employees/administrator can login to this requirement.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Side effect</th>
+                        <td class="pa">NO Enter the product data to the inventory and Request the data again.</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">RF007 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">main.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">04 / 07 / 2023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">In this requirement, the main page to which users will access after logging in will be organized.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Entrance</th>
+                        <td class="pa">Login.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Fountain </th>
+                        <td class="pa">database.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Exit </th>
+                        <td class="pa"> Gmail Message.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Destination </th>
+                        <td class="pa">main.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Restriction </th>
+                        <td class="pa">You must be logged in to access this section.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Side effect</th>
+                        <td class="pa">Directs the customer to login to their account or to register.</td>
+                    </tr>
+                    
+                </table>
+                <br>
+                <p class="tilt">3.2 Non-functional requirements</p><br>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">RNF001 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name </th>
+                        <td class="pa">Program performance.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date  </th>
+                        <td class="pa">25/072023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree needed</th>
+                        <td class="pa">High. </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">The program must have the best performance, the best loading speed and the best possible performance to give good satisfaction to each of the users.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code </th>
+                        <td class="pa">RNF002 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name </th>
+                        <td class="pa">Information protection.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">25/072023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree needed</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">The program to guarantee the security of the information that users enter.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">code</th>
+                        <td class="pa">RNF003</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">Program sustainability.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">25/072023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree needed</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">The program must have the ability to remain active and working at 100%, if it presents a failure it must be able to recover in the shortest possible time without affecting the user in any way.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">RNF004</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">usability.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date </th>
+                        <td class="pa">25/072023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree needed</th>
+                        <td class="pa">Half. </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">The interface of the program should be as clear and simple as possible so that users can use it in the best possible way.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa"> Code</th>
+                        <td class="pa">RNF005 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">Effectiveness.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">25/072023</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree needed</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">The program must have certain restrictions depending on the role with which the program is being executed.</td>
+                    </tr>
+                </table>
+                <br>
+                <p class="tilt">3.3 User interface requirements </p><br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code  </th>
+                        <td class="pa">PF006</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">log store.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">Does not record.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of needed</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">It will allow saving the user's information when registering in the system.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code </th>
+                        <td class="pa">PF007 </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Name</th>
+                        <td class="pa">Income and use.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">Does not record.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need</th>
+                        <td class="pa"> High. </td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">The program must be easy to access and use for users.</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="Tabla">
+                    <tr>
+                        <th class="pa">Code</th>
+                        <td class="pa">PF008</td>
+                    </tr>
+                    <tr>
+                        <th class="pa"> Name </th>
+                        <td class="pa">Order record.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Date</th>
+                        <td class="pa">Does not record.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Degree of need</th>
+                        <td class="pa">High.</td>
+                    </tr>
+                    <tr>
+                        <th class="pa">Description</th>
+                        <td class="pa">A record will be kept of each of the orders that are made.</td>
+                    </tr>
+                </table>
+                <br>
+                <p class="tilt">4. Determination of Hardware technologies, Software and services required </p><br>
+
+                <p class="tilt">4.1 Software </p><br>
+                The software will be created using the programming language (Python), for this work we will use the SQLite database due to its simplicity, efficiency as well as its speed and we will use visual studio code as the main development tool. <br><br>
+
+                <p class="tilt">4.2 Hosting</p><br>
+                The Hosting that we will use in this work is not defined but it should be noted that the hosting service that is contracted must have sufficient storage capacity for our program. <br>
+                <br>
+                <p class="tilt">4.3 Computer</p><br>
+                To develop the software, you must have a computer regardless of the model with at least a 2.5 GHz processor and 6 cores, an 8 GB Ran and a 300 GB solid disk. <br><br>
+
+                <p class="tilt">4.4 Automatic Barcode Reader Scanner USB Support Base</p><br>
+                It is required to use a bar reader scanner, this must have a good quality and it must be USB support.  <br><br>
+
+                <p class="tilt">4.5 Router (Wireless Router/WiFi Repeater N300Mbps, Tp-Link TL-WR840N)</p><br>
+
+                <p class="tilt">4.6 Budgeter</p><br>
+                No Definido
+
+
+
+
+            </article>
+            </details>
+            <details>
             
     </section>
     </section>
