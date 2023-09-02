@@ -229,55 +229,229 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 |- El sistema cargara el main-empleado                                                       |
 
 ## 3.2 resquerimirntos no funcionales 
-| codigo     | nombre                    | fecha       | grado necesida |
-|------------|---------------------------|-------------|----------------|
-| RNF001     | Rendimiento del programa  | 25/072023   | Alto           |
-|descripcion | El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios |
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF001 </td>
+            <td rowspan=1 align="center">Rendimiento del programa</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">El programa debe tener el mejor rendimiento, la mejor velocidad de carga y el mejor desenpeño posible para dar una buena satisfaccion a cada uno de los usuarios</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF002 </td>
+            <td rowspan=1 align="center"> proteccion de informcion </td>
+	    <td rowspan=1 align="center">25/072023  </td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center"> El programa de garantizar la seguridad de la informcion que los usuarios ingresan</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF003 </td>
+            <td rowspan=1 align="center">sostenibilidad del programa</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 
-| codigo     | nombre                    | fecha       | grado necesida |
-|------------|---------------------------|-------------|----------------|
-| RNF002     | proteccion de informcion  | 25/072023   | Alto           |
-|descripcion | El programa de garantizar la seguridad de la informcion que los usuarios ingresan |
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF004 </td>
+            <td rowspan=1 align="center">Usabilidad</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">Medio</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center"> La interfaz del programa debe ser lo mas clara y sencilla posible para que a los usuarios se le facilite su manejo de la mejor manera</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF005 </td>
+            <td rowspan=1 align="center">eficacia</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">El programa de brindar la mejor eficacia para mayor satisfacción y para una mejor experiencia de parte de los usuarios</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
-| codigo     | nombre                      | fecha       | grado necesida |
-|------------|-----------------------------|-------------|----------------|
-| RNF003     | sostenibilidad del programa | 25/072023   | Alto           |
-|descripcion | El programa debe tener la capacidad de mantenerse activo y funcionando a su 100%, si llega a presentar algun fallo debe ser capaz de recuperarse en el menor tiempo posible sin afectar de ninguna forma al usuario |
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF006 </td>
+            <td rowspan=1 align="center">Restricciones</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">El programa debe tener ciertas restricciones dependiendo el rol con el que se este ejecutando el programa 
+</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
-| codigo     | nombre                    | fecha       | grado necesida |
-|------------|---------------------------|-------------|----------------|
-| RNF004     | Usabilidad                | 25/072023   | Medio          |
-|descripcion | La interfaz del programa debe ser lo mas clara y sencilla posible para que a los usuarios se le facilite su manejo de la mejor manera |
-
-| codigo     | nombre                    | fecha       | grado necesida |
-|------------|---------------------------|-------------|----------------|
-| RNF005     | Eficacia                  | 25/072023   | Alto           |
-|descripcion | El programa de brindar la mejor eficacia para mayor satisfacción y para una mejor experiencia de parte de los usuarios |
-
-| codigo     | nombre                    | fecha       | grado necesida |
-|------------|---------------------------|-------------|----------------|
-| RNF006     | Restricciones             | 25/072023   | Medio          |
-|descripcion | El programa debe tener ciertas restricciones dependiendo el rol con el que se este ejecutando el programa |
-
+ 
 ## 3.3 requerimientos de interfaz de usuario 
-| codigo      | nombre              | fecha       | grado necesida |
-|-------------|---------------------|-------------|----------------|
-| PF006       | Almacen de registro | No registra | Alto           |
-| descripcion | permitira guardar la informcaion del ususario al regitrarse en el sistema |
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">PF006</td>
+            <td rowspan=1 align="center">Almacen de registro</td>
+	    <td rowspan=1 align="center">No registra</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">permitira guardar la informcaion del ususario al regitrarse en el sistema</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 
-| codigo      | nombre         | fecha       | grado necesida |
-|-------------|----------------|-------------|----------------|
-| PF007       | ingreso y uso  | No registra | Alto           |
-| descripcion | el programa debe terner un acceso y un uso facil para los usuarios |
+
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">PF007</td>
+            <td rowspan=1 align="center">ingreso y uso</td>
+	    <td rowspan=1 align="center">No registra</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">el programa debe terner un acceso y un uso facil para los usuarios</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 
-| codigo      | nombre             | fecha       | grado necesida |
-|-------------|--------------------|-------------|----------------|
-| PF008       | registro de pedido | No registra | Alto           |
-| descripcion | Se guardara un registro de cada uno de los pedidos que se hagan |
+<table>
+    <thead>
+        <tr>
+            <th>codigo</th>
+            <th>nombre</th>
+            <th>fecha</th>
+	     <th>grado necesida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">PF008</td>
+            <td rowspan=1 align="center">registro de pedido</td>
+	    <td rowspan=1 align="center">No registra</td>
+            <td rowspan=1 align="center">Alto</td>
+        </tr>
+        <tr>
+            <th align="center">descripcion</th>
+	    <td colspan="3" align="center">Se guardara un registro de cada uno de los pedidos que se hagan</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
+
 
 # 4. Determinacion de las tecnologias de Hardware,Software y servicios requerido
 
