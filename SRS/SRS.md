@@ -83,150 +83,355 @@ En el punto 3 se presenta una especificación detallada de requerimientos que so
 
 ## 3.1	Requerimientos Funcionales
 
-|Codigo                  | RF001                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | Registro de Inventario                  |
-| Fecha                  | 04/ 27 / 2023                             |
-| Grado de nesecidad     | Alto                                    |
-| Descripcion            | Debe permitir al administrador mostrar los productos y la cantidad con la que dispone de cada uno de estos |
-| Entrada                | Gmail, Contraseña                       |
-| Fuente                 | Administrador                           |
-| Salida                 |  emcabezado de inventario             |
-| Destino                | Regitro con la cantidad disponible de cada producto   |
-| Restriccion          | Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion | 
-| Efecto colateral       | Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan | 
+<style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+</style>
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-001</td>
+            <td colspan="2">Registro de Inventario</td>
+            <td>04/ 27 / 2023</td>
+            <td>ALTO</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">Debe permitir al administrador mostrar los productos y la cantidad con la que dispone de cada uno de estos</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>Gmail, Contraseña</td>
+            <td>Administrador</td>
+            <td>emcabezado de inventario</td>
+            <td>Regitro con la cantidad disponible de cada producto</td>
+            <td>Solo el personal administrativo que cuente con ususario valido puede ingresar y visualizar dicha informacion</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li>El sistema valida que la cuenta tenga rol administrador.</li>
+                    <li>El sistema despliega el main_admin.</li>
+                    <li>El sistema despliega el icono de administrar inventario.</li>
+                    <li>El administrador ingresa a administrar el inventario.</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">Esto le brinda al administrador un mejor manejo de todos sus productos dándole mayor eficiencia a la hora de llevar un conteo de todo los productos que entran y salen de la empresa y las ganancias que estos dejan</td>
+        </tr>
+</table>
 
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- El sistema valida que la cuenta tenga rol administrador                                   |
-|- El sistema despliega el main_admin                                                        |
-|- El sistema despliega el icono de administrar inventario                                   |
-|- El administrador ingresa a administrar el inventario                                      |       
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-002</td>
+            <td colspan="2">Inicio de sesion</td>
+            <td>04 / 07 / 2023</td>
+            <td>ALTO</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">Debe permitir al usuario iniciar sesion con un tipo de usuario ya sea (Administrador, empleado o cliente)</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>tipo de ususario, identificacion y contraseña</td>
+            <td>usuario</td>
+            <td>Mensaje al correo validando que se inicio sesion correctamente</td>
+            <td>pagina principal</td>
+            <td>dos o mas usuarios no pueden utilizar la misma identificacion</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Ingresa al main</li>
+                    <li>El sistema carga por predeterminado el main-cliente</li>
+                    <li>Ingresa al icono de iniciar seccion</li>
+                    <li>Ingresa el correo y la contraseña</li>
+                    <li>realiza el inicio de seccion</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">no se desplegaria pagina principal</td>
+        </tr>
+</table>
 
-|Codigo                  | RF002                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | inicio de sesion                        |
-| Fecha                  |  04 / 07 / 2023                         |
-| Grado de nesecidad     | Alto                                    |
-| Descripcion            | Debe permitir al usuario iniciar sesion con un tipo de usuario ya sea (Administrador, empleado o cliente) |
-| Entrada                | tipo de ususario, identificacion y contraseña                        |
-| Fuente                 | Usuario                                 |
-| Salida                 | Mensaje al correo validando que se inicio sesion correctamente |
-| Destino                | pagina principal                        |
-| Restriccion          | dos o mas usuarios no pueden utilizar la misma identificacion | 
-| Efecto colateral       | no se desplegaria pagina principal                             | 
 
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Ingresa al main                                                                           |
-|- El sistema carga por predeterminado el main-cliente                                       |
-|- Ingresa al icono de iniciar seccion                                                       |
-|- Ingresa el correo y la contraseña                                                         |       
-|- realiza el inicio de seccion                                                              |
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-003</td>
+            <td colspan="2">Modulo de carrito</td>
+            <td>04 / 07 / 2023</td>
+            <td>Media</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">permite al usuario agregar productos al carrito y apartar un producto sin la nesecidad de llevarselo enseguida</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>boton (agregar al carrito)</td>
+            <td>base de datos</td>
+            <td>Mansaje de producto agregado al carrito</td>
+            <td>carrito con la informacion de los productos agregados (nombre del Producto, descripcion, foto, cantidad, precio, codigo deproducto, fecha)</td>
+            <td>debe de estar registrado para poder agregar productos al carrito</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Ingresa al main</li>
+                    <li>por predeterminado el main-cliente</li>
+                    <li>seleciona productos que va a agregar al carrito</li>
+                    <li>El sistema valida que el cliente este logeado</li>
+                    <li>En caso de no estarlo el sistema solicita que se logee</li>
+                    <li>En caso de si estarlo el sistema agrega los productos al carrito</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">sin productos en el carrito no habra compra</td>
+        </tr>
+</table>
 
-|Codigo                  | RF003                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | Modulo de carrito                       |
-| Fecha                  |  04 / 07 / 2023                              |
-| Grado de nesecidad     | media                                   |
-| Descripcion            |permite al usuario agregar productos al carrito y apartar un producto sin la nesecidad de llevarselo enseguida |
-| Entrada                | boton (agregar al carrito)                     |
-| Fuente                 | base de datos                           |
-| Salida                 | Mansaje de producto agregado al carrito |
-| Destino                | carrito con la informacion de los productos agregados (nombre del Producto, descripcion, foto, cantidad, precio, codigo deproducto, fecha)       |
-| Restriccion            | debe de estar registrado para poder agregar productos al carrito | 
-| Efecto colateral       | sin productos en el carrito no habra compra |
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-004</td>
+            <td colspan="2">Registro de usuario</td>
+            <td>No registra</td>
+            <td>Alto</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">permite al usuario registrase en el sistema, como cuenta tipo (usuario)</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>nombre, apellidos, identificacion, direccion, correo, contraseña</td>
+            <td>usuario</td>
+            <td>mensaje de registro exitoso</td>
+            <td>modulo metodo de pago</td>
+            <td>no debe haber dos cuentas con el mismo correo</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Ingresa al main</li>
+                    <li>El sistema carga por predeterminado el main-cliente</li>
+                    <li>Ingresa al icono registrarse</li>
+                    <li>ingresa la informacion solicitada por el sistema</li>
+                    <li>realiza el registro</li>
+                </ul>    
+            </td>
+        </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">no se podria llevar a cabo ningun tipo de compra</td>
+        </tr>
+</table>
 
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Ingrsar al main                                                                           |
-|- Por predeterminado carga el main-cliente                                                  |
-|- seleciona productos que va a agregar al carrito                                           |
-|- El sistema valida que el cliente este logeado                                             |       
-|- en caso de no estarlo el sistema solicita que se logee                                    |
-|- En caso de si estarlo el sistema agrega los productos al carrito                          |
 
-|Codigo                  | RF004                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | Registro de usuario                     |
-| Fecha                  | No registra                             |
-| Grado de nesecidad     | Alto                                    |
-| Descripcion            |permite al usuario registrase en el sistema, como cuenta tipo (usuario) |
-| Entrada                | nombre, apellidos,  identificacion, direccion, correo, contraseña                     |
-| Fuente                 | usuario                                |
-| Salida                 | mensaje de registro exitoso            |
-| Destino                | modulo metodo de pago                   |
-| Restriccion            | no debe haber dos cuentas con el mismo correo | 
-| Efecto colateral       | no se podria llevar a cabo ningun tipo de compra |
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-005</td>
+            <td colspan="2">Comprar productos</td>
+            <td>04 / 07 / 2023</td>
+            <td>Alto</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">permite al usuario realizar una compra</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>direccion, forma de pago</td>
+            <td>usuario</td>
+            <td>mensaje via gmail</td>
+            <td>modulo del carrito</td>
+            <td>es obligario seleccionar un metodo de pago</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li> Valida que haya productos en el carrito</li>
+                    <li>El sistema le pedira unos datos</li>
+                    <li>finaliza la compra</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">no se podria realizar ningun tipo de compra</td>
+        </tr>
+</table>
 
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Ingresar al main                                                                          |
-|- El sistema carga por predeterminado el main-cliente                                       |
-|- Ingresa al icono registrarse                                                              |
-|- ingresa la infor8macion solicitada por el sistema                                          |       
-|- realiza el registro                                                                       |
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-006</td>
+            <td colspan="2">Modulo de productos</td>
+            <td>04/ 07/ 2023</td>
+            <td>Alto</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">detalles de cada producto para su organizacion</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>nombre, Codigo, Cantidad</td>
+            <td>Empleado</td>
+            <td>Producto añadido</td>
+            <td>Inventario (nombre, Codigo, Cantidad)</td>
+            <td>Solo los empleados/administrador Pueden Ingresar a este requerimiento</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li>El sistema valida que la cuenta tenga rol empleado</li>
+                    <li>El sistema despliega el main-empleado</li>
+                    <li>El sistema despliega icono de gestionar productos</li>
+                    <li>El empleado ingresa a gestionar los preductos (agregar-modificar-eliminar)</li>
+                </ul>    
+            </td>
+        </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente</td>
+        </tr>
+</table>       
 
-|Codigo                  | RF005                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | comprar productos                       |
-| Fecha                  |  04 / 07 / 2023                         |
-| Grado de nesecidad     | Alto                                    |
-| Descripcion            |permite al usuario realizar una compra   |
-| Entrada                |direccion, forma de pago                 |
-| Fuente                 | usuario                                 |
-| Salida                 | mensaje via gmail                       |
-| Destino                | modulo del carrito                      |
-| Restriccion            | es obligario seleccionar un metodo de pago | 
-| Efecto colateral       | no se podria realizar ningun tipo de compra |
-
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Valida que haya productos en el carrito                                                   |
-|- El sistema le pedira unos datos                                                           |
-|- finaliza la compra                                                                        |
-
-|Codigo                  | RF006                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 |  modulo de Productos                    |
-| Fecha                  |  04 / 07 / 2023                         |
-| Grado de nesecidad     | Alto                                    |
-| Descripcion            |detalles de cada producto para su organizacion |
-| Entrada                | nombre, Codigo, Cantidad                |
-| Fuente                 | Empleado                                |
-| Salida                 | Producto añadido                        |
-| Destino                | Inventario (nombre, Codigo, Cantidad)   |
-| Restriccion          | Solo los empleados/administrador Pueden Ingresar a este requerimiento |
-| Efecto colateral       | NO Ingresar Los datos de producto al inventario y Solicitar los datos nuevamente |
-
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- El sistema valida que la cuenta tenga rol empleado                                        |
-|- El sistema despliega el main-empleado                                                     |
-|- El sistema despliega icono de gestionar productos                                         |
-|- El empleado ingresa a gestionar los preductos (agregar-modificar-eliminar)                |       
-
-|Codigo                  | RF007                                   |
-|------------------------|-----------------------------------------|
-| Nombre                 | main                                    |
-| Fecha                  |  04 / 07 / 2023                         |
-| Grado de nesecidad     | Alto                                    |
-| Descripcion            | en este requerimiento se va a organizar la pagina principal a la cual se van a acceder los usuarios despues de iniciar sesion |
-| Entrada                | inicio de sesion                        |
-| Fuente                 | base de datos                           |
-| Salida                 | Mensaje Gmail                           |
-| Destino                | main                                    |
-| Restriccion          | tiene que estar logueado para poder acceder a este apartado | 
-| Efecto colateral       | manda al cliente a iniciar sesion en su cuenta o a que se registre                            | 
-
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Al acceder a la url del la pagina sera direccionado/a al main                             |
-|- El sistema cargar por predeterminado el main-Cliente                                      |
-|- Al iniciar seccion como admin                                                             |
-|- El sistema cargara el main-admin                                                          |       
-|- Al iniciar seccion como empleado                                                          |
-|- El sistema cargara el main-empleado                                                       |
+<table style="width: 90%;">
+        <tr>
+            <th>Codigo</th>
+            <th colspan = "2">Nombre</th>
+            <th>Fecha</th>
+            <th>Grado de necesidad</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-007</td>
+            <td colspan="2">Registro de usuario</td>
+            <td>04 / 07 / 2023</td>
+            <td>Alto</td>
+        </tr>
+        <tr align="center">
+            <td>Descripción</td>
+            <td colspan ="4">en este requerimiento se va a organizar la pagina principal a la cual se van a acceder los usuarios despues de iniciar sesion</td>
+        </tr>
+        <tr align="center">
+            <th>Entradas</th>
+            <th>Fuente</th>
+            <th>Salida</th>
+            <th>Destino</th>
+            <th>Restricciones</th>
+        </tr>
+        <tr align="center">
+            <td>inicio de sesion</td>
+            <td>Fuente	base de datos</td>
+            <td>Salida	Mensaje Gmail</td>
+            <td>Destino	main</td>
+            <td>Restriccion	tiene que estar logueado para poder acceder a este apartado</td>
+        </tr>
+        <tr>
+            <td>Proceso</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Al acceder a la url del la pagina sera direccionado/a al main</li>
+                    <li>El sistema cargar por predeterminado el main-Cliente</li>
+                    <li>Al iniciar seccion como admin</li>
+                    <li>El sistema cargara el main-admin</li>
+                    <li>Al iniciar seccion como empleado</li>
+                    <li>El sistema cargara el main-empleado</li>
+                </ul>    
+            </td>
+        </tr>
+        <tr align="center">
+            <td>Efecto colateral</td>
+            <td colspan="4">manda al cliente a iniciar sesion en su cuenta o a que se registre</td>
+        </tr>
+</table>
 
 ## 3.2 resquerimirntos no funcionales 
 <table>
