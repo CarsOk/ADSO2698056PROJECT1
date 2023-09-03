@@ -84,156 +84,374 @@ Point 3 presents a detailed specification of the requirements that are necessary
 
 ## 3.1	Functional Requirements
 
-|code                    | RF001                                   |
-|------------------------|-----------------------------------------|
-| Name                   | Inventory Record                        |
-| Date                   | 04/27/2023                              |
-| Degree of need         | High                                    |
-| Description            | You must allow the administrator to show the products and the quantity with which you have each of these |
-| Input                  | Gmail, Password                         |
-| Source                 | Administrator                           |
-| Departure              | inventory header                        |
-| Destination            | Register with the available quantity of each product |
-| Restriction            | Only administrative staff with a valid username can enter and view said information |
-| Side effect            | This gives the administrator a better management of all his products, giving him greater efficiency when it comes to keeping track of all the products that enter and leave the company and the profits that they leave |
-
-| Process                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- The system validates that the account has an administrator role                           |
-|- The system displays the main_admin                                                        |
-|- The system displays the icon to manage inventory                                          |
-|- The administrator enters to manage the inventory                                          |
-
-
-|Code                    | RF002                                   |
-|------------------------|-----------------------------------------|
-| Name                   | login                                   |
-| Date                   | 04 / 07 / 2023                          |
-| Degree of need         | High                                    |
-| Description            | You must allow the user to log in with a type of user either (Administrator, employee or client) |
-| Input                  | user type, identification and password  |
-| Source                 | User                                    |
-| Departure              | Message to the email validating that the session was started correctly |
-| Destination            | main page                               |
-| Restriction            | two or more users cannot use the same identification |
-| Side effect            | main page would not be displayed        |
-
-| Process                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Enter the main                                                                            |
-|- The system loads by default the main-client                                               |
-|- Enter the icon to start section                                                           |
-|- Enter email and password                                                                  |
-|- performs the beginning of the section                                                     |
-
-
-|Code                    | RF003                                   |
-|------------------------|-----------------------------------------|
-| name                   | Cart module                             |
-| Date                   | 04 / 07 / 2023                          |
-| Degree of need         | mean                                    |
-| Description            | allows the user to add products to the cart and remove a product without the need to take it immediately |
-| Input                  | button (add to cart)                    |
-| Source                 | database                                |
-| departure              | Product message added to cart           |
-| Destination            | Cart with the information of the added products (Product name, description, photo, quantity, price, product code, date) |
-| restriction            | You must be registered to be able to add products to the cart |
-| Side effects           | without products in the cart there will be no purchase |
-
-| Proceso                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Enter the main                                                                            |
-|- By default loads the main-client                                                          |
-|- select products to add to cart                                                            |
-|- The system validates that the client is logged in                                         |
-|- if not, the system requests that you log in                                               |
-|- If it is, the system adds the products to the cart                                        |
+<style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+</style>
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name </th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-001</td>
+            <td colspan="2">Inventory Record</td>
+            <td>04/ 27 / 2023</td>
+            <td>High</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">You must allow the administrator to show the products and the quantity with which you have each of these.</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>Gmail, Password.</td>
+            <td>Administrator.</td>
+            <td>inventory header.</td>
+            <td>Register with the available quantity of each product.</td>
+            <td>Only administrative staff with a valid username can enter and view said information.</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>The system validates that the account has an administrator role.</li>
+                    <li>The system displays the main_admin.</li>
+                    <li>The system displays the icon to manage inventory.</li>
+                    <li>The administrator enters to manage the inventory.</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">This gives the administrator a better management of all his products, giving him greater efficiency when it comes to keeping track of all the products that enter and leave the company and the profits that they leave.</td>
+        </tr>
+</table>
 
 
-|Code                    | RF004                                   |
-|------------------------|-----------------------------------------|
-| Name                   | User registration                       |
-| Date                   | Does not register                       |
-| Degree of need         | High                                    |
-| Description            | allows the user to register in the system, as type account (user) |
-| Input                  | name, surname, identification, address, email, password |
-| Source                 | user                                    |
-| Departure              | successful registration message         |
-| Destination            | payment method module                   |
-| Restriction            | there should not be two accounts with the same email |
-| Side effect            | no type of purchase could be carried out |
-
-| Process                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Enter the main                                                                            |
-|- The system loads by default the main-client                                               |
-|- Enter the register icon                                                                   |
-|- enter the information requested by the system                                             |
-|- register                                                                                  |
 
 
-|Code                    | RF005                                   |
-|------------------------|-----------------------------------------|
-| Name                   | buy products                            |
-| Date                   | 04 / 07 / 2023                          |
-| Degree of need         | High                                    |
-| Description            |allows the user to make a purchase       |
-| Input                  | address, payment method                 |
-| Source                 | user                                    |
-| Departure              | message via gmail                       |
-| Destination            | cart module                             |
-| Restriction            | It is mandatory to select a payment method |
-| Side effect            | no type of purchase could be made       |
 
-| Process                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- Validates that there are products in the cart                                             |
-|- The system will ask for some information                                                  |
-|- finalize the purchase                                                                     |
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name </th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-002</td>
+            <td colspan="2">login</td>
+            <td>04/ 27 / 2023</td>
+            <td>High</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">You must allow the user to log in with a type of user either (Administrator, employee or client).</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>user type, identification and password.</td>
+            <td>User.</td>
+            <td>Message to the email validating that the session was started correctly.</td>
+            <td>main page.</td>
+            <td>two or more users cannot use the same identification.</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Enter the main.</li>
+                    <li>The system loads by default the main-client.</li>
+                    <li>Enter the icon to start section.</li>
+                    <li>Enter email and password.</li>
+                    <li>performs the beginning of the section.</li>  
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">performs the beginning of the section.</td>
+        </tr>
+</table>
 
 
-|Code                    | RF006                                   |
-|------------------------|-----------------------------------------|
-| Name                   | Products module                         |
-| Date                   | 04 / 07 / 2023                          |
-| Degree of need         | High                                    |
-| Description            | details of each product for your organization |
-| Input                  | name, Code, Quantity                    |
-| Source                 | Employee                                |
-| Departure              | Product added                           |
-| Destination            | Inventory (name, Code, Quantity)        |
-| Restriction            | Only employees/administrator can enter this requirement |
-| Side effect            | NO Enter the product data to the inventory and Request the data again |
-
-| Process                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- The system validates that the account has an employee role                                |
-|- The system displays the main-employee                                                     |
-|- The system displays the icon to manage products                                           |
-|- The employee enters to manage the products (add-modify-eliminate)                         |
 
 
-|Code                    | RF007                                   |
-|------------------------|-----------------------------------------|
-| Name                   | main                                    |
-| Date                   | 04 / 07 / 2023                          |
-| Degree of need         | High                                    |
-| Description            | In this requirement, the main page to which users will access after logging in will be organized |
-| Input                  | login                                   |
-| Source                 | database                                |
-| Departure              | Gmail Message                           |
-| Destination            | main                                    |
-| Restriction            | You have to be logged in to access this section |
-| Side effect            | directs the client to log in to their account or to register | 
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name </th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-003</td>
+            <td colspan="2">performs the beginning of the section</td>
+            <td>04/ 27 / 2023</td>
+            <td>mean</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">allows the user to add products to the cart and remove a product without the need to take it immediately.</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>button (add to cart).</td>
+            <td>database</td>
+            <td>Product message added to cart.</td>
+            <td>Cart with the information of the added products (Product name, description, photo, quantity, price, product code, date).</td>
+            <td>You must be registered to be able to add products to the cart.</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Enter the main.</li>
+                    <li>By default loads the main-client.</li>
+                    <li>select products to add to cart.</li>
+                    <li>The system validates that the client is logged in.</li>
+                    <li>if not, the system requests that you log in.</li>
+                    <li>If it is, the system adds the products to the cart.</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">without products in the cart there will be no purchase.</td>
+        </tr>
+</table>
 
-| Process                                                                                    | 
-|--------------------------------------------------------------------------------------------|
-|- When accessing the url of the page you will be directed to the main                       |
-|- The system will load by default the main-Client                                           |
-|- When starting the section as admin                                                        |
-|- The system will load the main-admin                                                       |
-|- When starting the section as an employee                                                  |
-|- The system will load the main-employee                                                    |
+
+
+
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name </th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-004</td>
+            <td colspan="2">User registration</td>
+            <td>Does not register</td>
+            <td>High</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">allows the user to register in the system, as type account (user).</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>name, surname, identification, address, email, password.</td>
+            <td>user.</td>
+            <td>successful registration message.</td>
+            <td>payment method module.</td>
+            <td>there should not be two accounts with the same email.</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Enter the main.</li>
+                    <li>The system loads by default the main-client.</li>
+                    <li>Enter the register icon.</li>
+                    <li>enter the information requested by the system.</li>
+                    <li>register.</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">no type of purchase could be carried out.</td>
+        </tr>
+</table>
+
+
+
+
+
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name </th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-005</td>
+            <td colspan="2">buy products</td>
+            <td>04/ 27 / 2023</td>
+            <td>High</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">allows the user to make a purchase.</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>address, payment method.</td>
+            <td>user.</td>
+            <td>message via gmail.</td>
+            <td>cart module.</td>
+            <td>It is mandatory to select a payment method.</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>Validates that there are products in the cart.</li>
+                    <li>The system will ask for some information.</li>
+                    <li>finalize the purchase.</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">no type of purchase could be made.</td>
+        </tr>
+</table>
+
+
+
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name</th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-006</td>
+            <td colspan="2">Products module</td>
+            <td>04/ 27 / 2023</td>
+            <td>High</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">details of each product for your organization.</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>name, Code, Quantity.</td>
+            <td>Employee.</td>
+            <td>Product added.</td>
+            <td>Inventory (name, Code, Quantity).</td>
+            <td>Only employees/administrator can enter this requirement.</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>The system validates that the account has an employee role.</li>
+                    <li>The system displays the main-employee.</li>
+                    <li>The system displays the icon to manage products.</li>
+                    <li>The employee enters to manage the products (add-modify-eliminate).</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">NO Enter the product data to the inventory and Request the data again.</td>
+        </tr>
+</table>
+
+
+
+
+<table style="width: 90%;">
+        <tr>
+            <th>Code</th>
+            <th colspan = "2">Name </th>
+            <th>Date</th>
+            <th>Degree of need</th>
+        </tr> 
+        <tr align="center">
+            <td>RF-007</td>
+            <td colspan="2">Main</td>
+            <td>04/ 27 / 2023</td>
+            <td>High</td>
+        </tr>
+        <tr align="center">
+            <td>Description</td>
+            <td colspan ="4">In this requirement, the main page to which users will access after logging in will be organized.</td>
+        </tr>
+        <tr align="center">
+            <th>Input</th>
+            <th>Source</th>
+            <th>Departure</th>
+            <th>Destination</th>
+            <th>Restriction</th>
+        </tr>
+        <tr align="center">
+            <td>Login</td>
+            <td>Database</td>
+            <td>Gmail Message</td>
+            <td>Main</td>
+            <td>You have to be logged in to access this section</td>
+        </tr>
+        <tr>
+            <td>Process</td>
+            <td colspan = "4">
+                <ul>
+                    <li>When accessing the url of the page you will be directed to the main.</li>
+                    <li>The system will load by default the main-Client.</li>
+                    <li>When starting the section as admin.</li>
+                    <li>The system will load the main-admin.</li>
+                    <li>When starting the section as an employee.</li>
+                    <li>The system will load the main-employee.</li>
+                </ul>    
+            </td>
+            </tr>
+        <tr align="center">
+            <td>Side effect</td>
+            <td colspan="4">directs the client to log in to their account or to register.</td>
+        </tr>
+</table>
+
+
 
  
 ## 3.2 non-functional requirements
