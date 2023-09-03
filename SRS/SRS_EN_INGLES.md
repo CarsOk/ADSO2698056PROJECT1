@@ -456,55 +456,233 @@ Point 3 presents a detailed specification of the requirements that are necessary
  
 ## 3.2 non-functional requirements
 
-| code       | name                      | date        | degree of need |
-|------------|---------------------------|-------------|----------------|
-| RNF001     | program performance       | 25/07/2023  | high           |
-|description | The program must have the best performance, the best loading speed and the best possible performance to give good satisfaction to each of the users |
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF001 </td>
+            <td rowspan=1 align="center">program performance</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">The program must have the best performance, the best loading speed and the best possible performance to give good satisfaction to each of the users</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 
-| code       | name                      | date        | degree of need |
-|------------|---------------------------|-------------|----------------|
-| RNF002     | information protection    | 25/07/2023  | high           |
-|description | The program to guarantee the security of the information that users enter |
+
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF002</td>
+            <td rowspan=1 align="center">information protection</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">The program to guarantee the security of the information that users enter</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 
-| code       | name                        | date        | degree of need |
-|------------|-----------------------------|-------------|----------------|
-| RNF003     | program sustainability      | 25/07/2023  | high           |
-|description | The program must have the ability to remain active and working at 100%, if it presents a failure it must be able to recover in the shortest possible time without affecting the user in any way|
 
-| code       | name                      | date        | degree of need |
-|------------|---------------------------|-------------|----------------|
-| RNF004     | Usability                 | 25/07/2023  | half           |
-|description | The interface of the program should be as clear and simple as possible so that users can use it in the best possible way|
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF003</td>
+            <td rowspan=1 align="center">program sustainability</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center"> high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">The program must have the ability to remain active and working at 100%, if it presents a failure it must be able to recover in the shortest possible time without affecting the user in any way</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
-| code       | name                      | date        | degree of need |
-|------------|---------------------------|-------------|----------------|
-| RNF005     | effectiveness             | 25/072023   | high           |
-|description | The program to provide the best efficiency for greater satisfaction and for a better experience on the part of users|
 
-| code       | name                      | date        | degree of need |
-|------------|---------------------------|-------------|----------------|
-| RNF006     | restrictions              | 25/072023   | half           |
-|description | The program must have certain restrictions depending on the role with which the program is being executed |
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF004</td>
+            <td rowspan=1 align="center">Usability</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">half</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">The interface of the program should be as clear and simple as possible so that users can use it in the best possible way</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF005</td>
+            <td rowspan=1 align="center">effectiveness</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center">high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">The program to provide the best efficiency for greater satisfaction and for a better experience on the part of users</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">RNF006</td>
+            <td rowspan=1 align="center">restrictions</td>
+	    <td rowspan=1 align="center">25/072023</td>
+            <td rowspan=1 align="center"> high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">The program must have certain restrictions depending on the role with which the program is being executed</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
+
 
 ## 3.3 user interface requirements 
 
-| code        | name                | date            |degree of need  |
-|-------------|---------------------|-----------------|----------------|
-| PF006       | Record Store        | does not record | high           |
-| description | will allow to save the user's information when registering in the system |
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">PF006</td>
+            <td rowspan=1 align="center">Record Store</td>
+	    <td rowspan=1 align="center">does not record</td>
+            <td rowspan=1 align="center"> high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">will allow to save the user's information when registering in the system </td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
-| code        | name           | date              | degree of need |
-|-------------|----------------|-------------------|----------------|
-| PF007       | income and use | Does not register | High           |
-| description | the program must be easy to access and use for users |
+
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">PF007</td>
+            <td rowspan=1 align="center">income and use</td>
+	    <td rowspan=1 align="center">does not record</td>
+            <td rowspan=1 align="center"> high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">the program must be easy to access and use for users</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 
-| code        | name               | date            | degree of need |
-|-------------|--------------------|-----------------|----------------|
-| PF008       | order registration | does not record | high           |
-| description | A record will be kept of each of the orders that are made |
+
+<table>
+    <thead>
+        <tr>
+            <th>code</th>
+            <th> name</th>
+            <th>date</th>
+	     <th>edgree of need</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=1 align="center">PF008</td>
+            <td rowspan=1 align="center">order registration</td>
+	    <td rowspan=1 align="center">does not record</td>
+            <td rowspan=1 align="center"> high</td>
+        </tr>
+        <tr>
+            <th align="center">description</th>
+	    <td colspan="3" align="center">A record will be kept of each of the orders that are made</td>
+        </tr>
+        </tr>  
+    </tbody>
+</table>
 
 # 4. Determination of Hardware technologies, Software and services required
 
