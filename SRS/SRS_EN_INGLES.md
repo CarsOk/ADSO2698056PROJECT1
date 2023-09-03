@@ -106,7 +106,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">You must allow the administrator to show the products and the quantity with which you have each of these</td>
+            <td colspan ="4">You must allow the administrator to show the products and the quantity with which you have each of these.</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -116,26 +116,26 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <th>Restriction</th>
         </tr>
         <tr align="center">
-            <td>Gmail, Password</td>
-            <td>Administrator</td>
-            <td>inventory header</td>
-            <td>Register with the available quantity of each product</td>
-            <td>Only administrative staff with a valid username can enter and view said information</td>
+            <td>Gmail, Password.</td>
+            <td>Administrator.</td>
+            <td>inventory header.</td>
+            <td>Register with the available quantity of each product.</td>
+            <td>Only administrative staff with a valid username can enter and view said information.</td>
         </tr>
         <tr>
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>The system validates that the account has an administrator role</li>
-                    <li>The system displays the main_admin</li>
-                    <li>The system displays the icon to manage inventory</li>
-                    <li>The administrator enters to manage the inventory</li>
+                    <li>The system validates that the account has an administrator role.</li>
+                    <li>The system displays the main_admin.</li>
+                    <li>The system displays the icon to manage inventory.</li>
+                    <li>The administrator enters to manage the inventory.</li>
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">This gives the administrator a better management of all his products, giving him greater efficiency when it comes to keeping track of all the products that enter and leave the company and the profits that they leave</td>
+            <td colspan="4">This gives the administrator a better management of all his products, giving him greater efficiency when it comes to keeping track of all the products that enter and leave the company and the profits that they leave.</td>
         </tr>
 </table>
 
@@ -158,7 +158,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">You must allow the user to log in with a type of user either (Administrator, employee or client)</td>
+            <td colspan ="4">You must allow the user to log in with a type of user either (Administrator, employee or client).</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -168,27 +168,27 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <th>Restriction</th>
         </tr>
         <tr align="center">
-            <td>user type, identification and password</td>
-            <td>User</td>
-            <td>Message to the email validating that the session was started correctly</td>
-            <td>main page</td>
-            <td>two or more users cannot use the same identification</td>
+            <td>user type, identification and password.</td>
+            <td>User.</td>
+            <td>Message to the email validating that the session was started correctly.</td>
+            <td>main page.</td>
+            <td>two or more users cannot use the same identification.</td>
         </tr>
         <tr>
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>Enter the main</li>
-                    <li>The system loads by default the main-client</li>
-                    <li>Enter the icon to start section</li>
-                    <li>Enter email and password</li>
-                    <li>performs the beginning of the section</li>  
+                    <li>Enter the main.</li>
+                    <li>The system loads by default the main-client.</li>
+                    <li>Enter the icon to start section.</li>
+                    <li>Enter email and password.</li>
+                    <li>performs the beginning of the section.</li>  
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">performs the beginning of the section</td>
+            <td colspan="4">performs the beginning of the section.</td>
         </tr>
 </table>
 
@@ -210,7 +210,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">allows the user to add products to the cart and remove a product without the need to take it immediately</td>
+            <td colspan ="4">allows the user to add products to the cart and remove a product without the need to take it immediately.</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -220,28 +220,28 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <th>Restriction</th>
         </tr>
         <tr align="center">
-            <td>button (add to cart)</td>
+            <td>button (add to cart).</td>
             <td>database</td>
-            <td>Product message added to cart</td>
-            <td>Cart with the information of the added products (Product name, description, photo, quantity, price, product code, date)</td>
-            <td>You must be registered to be able to add products to the cart</td>
+            <td>Product message added to cart.</td>
+            <td>Cart with the information of the added products (Product name, description, photo, quantity, price, product code, date).</td>
+            <td>You must be registered to be able to add products to the cart.</td>
         </tr>
         <tr>
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>Enter the main</li>
-                    <li>By default loads the main-client</li>
-                    <li>select products to add to cart</li>
-                    <li>The system validates that the client is logged in</li>
-                    <li>if not, the system requests that you log in</li>
-                    <li>If it is, the system adds the products to the cart</li>
+                    <li>Enter the main.</li>
+                    <li>By default loads the main-client.</li>
+                    <li>select products to add to cart.</li>
+                    <li>The system validates that the client is logged in.</li>
+                    <li>if not, the system requests that you log in.</li>
+                    <li>If it is, the system adds the products to the cart.</li>
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">without products in the cart there will be no purchase</td>
+            <td colspan="4">without products in the cart there will be no purchase.</td>
         </tr>
 </table>
 
@@ -263,7 +263,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">allows the user to register in the system, as type account (user)</td>
+            <td colspan ="4">allows the user to register in the system, as type account (user).</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -273,27 +273,27 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <th>Restriction</th>
         </tr>
         <tr align="center">
-            <td>name, surname, identification, address, email, password</td>
-            <td>user</td>
-            <td>successful registration message</td>
-            <td>payment method module</td>
-            <td>there should not be two accounts with the same email</td>
+            <td>name, surname, identification, address, email, password.</td>
+            <td>user.</td>
+            <td>successful registration message.</td>
+            <td>payment method module.</td>
+            <td>there should not be two accounts with the same email.</td>
         </tr>
         <tr>
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>Enter the main</li>
-                    <li>The system loads by default the main-client</li>
-                    <li>Enter the register icon</li>
-                    <li>enter the information requested by the system</li>
-                    <li>register</li>
+                    <li>Enter the main.</li>
+                    <li>The system loads by default the main-client.</li>
+                    <li>Enter the register icon.</li>
+                    <li>enter the information requested by the system.</li>
+                    <li>register.</li>
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">no type of purchase could be carried out</td>
+            <td colspan="4">no type of purchase could be carried out.</td>
         </tr>
 </table>
 
@@ -316,7 +316,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">allows the user to make a purchase</td>
+            <td colspan ="4">allows the user to make a purchase.</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -326,25 +326,25 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <th>Restriction</th>
         </tr>
         <tr align="center">
-            <td>address, payment method</td>
-            <td>user</td>
-            <td>message via gmail</td>
-            <td>cart module</td>
-            <td>It is mandatory to select a payment method</td>
+            <td>address, payment method.</td>
+            <td>user.</td>
+            <td>message via gmail.</td>
+            <td>cart module.</td>
+            <td>It is mandatory to select a payment method.</td>
         </tr>
         <tr>
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>Validates that there are products in the cart</li>
-                    <li>The system will ask for some information</li>
-                    <li>finalize the purchase</li>
+                    <li>Validates that there are products in the cart.</li>
+                    <li>The system will ask for some information.</li>
+                    <li>finalize the purchase.</li>
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">no type of purchase could be made</td>
+            <td colspan="4">no type of purchase could be made.</td>
         </tr>
 </table>
 
@@ -365,7 +365,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">details of each product for your organization</td>
+            <td colspan ="4">details of each product for your organization.</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -375,26 +375,26 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <th>Restriction</th>
         </tr>
         <tr align="center">
-            <td>name, Code, Quantity</td>
-            <td>Employee</td>
-            <td>Product added</td>
-            <td>Inventory (name, Code, Quantity)</td>
-            <td>Only employees/administrator can enter this requirement</td>
+            <td>name, Code, Quantity.</td>
+            <td>Employee.</td>
+            <td>Product added.</td>
+            <td>Inventory (name, Code, Quantity).</td>
+            <td>Only employees/administrator can enter this requirement.</td>
         </tr>
         <tr>
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>The system validates that the account has an employee role</li>
-                    <li>The system displays the main-employee</li>
-                    <li>The system displays the icon to manage products</li>
-                    <li>The employee enters to manage the products (add-modify-eliminate)</li>
+                    <li>The system validates that the account has an employee role.</li>
+                    <li>The system displays the main-employee.</li>
+                    <li>The system displays the icon to manage products.</li>
+                    <li>The employee enters to manage the products (add-modify-eliminate).</li>
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">NO Enter the product data to the inventory and Request the data again</td>
+            <td colspan="4">NO Enter the product data to the inventory and Request the data again.</td>
         </tr>
 </table>
 
@@ -416,7 +416,7 @@ Point 3 presents a detailed specification of the requirements that are necessary
         </tr>
         <tr align="center">
             <td>Description</td>
-            <td colspan ="4">In this requirement, the main page to which users will access after logging in will be organized</td>
+            <td colspan ="4">In this requirement, the main page to which users will access after logging in will be organized.</td>
         </tr>
         <tr align="center">
             <th>Input</th>
@@ -436,18 +436,18 @@ Point 3 presents a detailed specification of the requirements that are necessary
             <td>Process</td>
             <td colspan = "4">
                 <ul>
-                    <li>When accessing the url of the page you will be directed to the main</li>
-                    <li>The system will load by default the main-Client</li>
-                    <li>When starting the section as admin</li>
-                    <li>The system will load the main-admin</li>
-                    <li>When starting the section as an employee</li>
-                    <li>The system will load the main-employee</li>
+                    <li>When accessing the url of the page you will be directed to the main.</li>
+                    <li>The system will load by default the main-Client.</li>
+                    <li>When starting the section as admin.</li>
+                    <li>The system will load the main-admin.</li>
+                    <li>When starting the section as an employee.</li>
+                    <li>The system will load the main-employee.</li>
                 </ul>    
             </td>
             </tr>
         <tr align="center">
             <td>Side effect</td>
-            <td colspan="4">directs the client to log in to their account or to register</td>
+            <td colspan="4">directs the client to log in to their account or to register.</td>
         </tr>
 </table>
 
