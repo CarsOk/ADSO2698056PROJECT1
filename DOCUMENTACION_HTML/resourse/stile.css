@@ -82,3 +82,11 @@ a:visited {
     background-color: #1E656D;
     color: #F1F3CE;
 }
+
+.miniTitle{
+    color:BLACK
+}
+.letraA{
+    color: yellow;
+    text-align: center;
+}
