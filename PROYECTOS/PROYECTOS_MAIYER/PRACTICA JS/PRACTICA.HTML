@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/PROYECTOS/PROYECTOS_MAIYER/PRACTICA JS/ESTILOPRACTICA/ESTILOPRACTICA.CSS">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <div id="Title">
+            Practica JS
+        </div>
+        <div class="text" id="Title">
+            <input type="text" id="num1">
+        </div>
+        <select class="center" id="opciones">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+        </select>
+        <div class="text" id="Title">
+            <input type="text" id="num2">
+        </div>
+        
+        <div id="boton" class="center">
+            <button onclick="Oneclick()"  id="boton">Click</button>
+        </div>
+        
+        <script>
+        function Suma( num1 , num2){
+            a = (num1 + num2)
+            return a
+        }
+        function Resta( num1 , num2){
+            a = (num1 - num2)
+            return a
+        }
+        function Multiplicacion( num1 , num2){
+            a = (num1 * num2)
+            return a
+        }
+        function Divicion( num1 , num2){
+            a = (num1 / num2)
+            return a
+        }
+        function Oneclick(){
+            let num1=document.getElementById("num1").value;
+            num1 = Number(num1)
+            console.log(num1)
+            let num2=document.getElementById("num2").value;
+            console.log(num2)
+            num2 = Number(num2)
+            let operacion=document.getElementById("opciones").value; 
+            operacion = Number(operacion)
+            if (operacion === 1){
+                op =  Suma(num1 , num2);
+                console.log(`La suma de ${num1} + ${num2} = ${op}`)
+            } else if(operacion === 2) {
+                op =  Resta(num1 , num2);
+                console.log(`La Resta de ${num1} - ${num2} = ${op}`)
+            } else if(operacion === 3 ) {
+                op =  Multiplicacion(num1 , num2);
+                console.log(`La Multiplicacion de ${num1} * ${num2} = ${op}`)
+            } else{
+                op =  Divicion(num1 , num2);
+                console.log(`La Divicion de ${num1} / ${num2} = ${op}`)
+            }
+    
+        }
+        
+        
+    
+        </script>
+    </article>
+</body>
+</html>

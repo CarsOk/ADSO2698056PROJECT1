@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    
+}
+
+
+#Title {
+    font-size: 50px;
+    text-align: center;
+} 
+.text {
+    margin: auto;
+    font-size: 20px;
+    margin: auto;
+}
+#lista {
+    background-color: brown;
+    font-size: 30px;
+    height: 30px;
+    width: 80px;
+}
+#boton {
+    margin-top: 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 90px;
+    
+}
+#opciones{
+    height: 30px;
+    width: 40px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.center{
+    margin: auto;
+}
